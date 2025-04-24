@@ -1,0 +1,55 @@
+.btn-link {
+  position: relative;
+  background: var(--color--1C2025);
+  border-radius: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  overflow: hidden;
+}
+.btn-link > * {
+  transition: 0.4s;
+}
+
+.btn-link-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  height: 100%;
+  width: 0%;
+  background: var(--color--009853);
+  z-index: 1;
+  border-radius: 16px;
+}
+.btn-link-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  padding: 0 40px;
+}
+
+.btn-link:hover .btn-link-mask {
+  width: 100%;
+  opacity: 1;
+}
+
+.btn-link-arrow {
+  background: var(--color--009853);
+  width: 34px;
+  min-width: 34px;
+  height: 34px;
+  border-radius: 13px;
+}
+.btn-link:hover .btn-link-arrow {
+  background: #fff;
+}
+.btn-link-arrow-icon {
+  fill: #fff;
+}
+.btn-link:hover .btn-link-arrow-icon {
+  fill: var(--color--009853);
+}

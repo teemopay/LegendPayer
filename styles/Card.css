@@ -1,0 +1,30 @@
+.custom-card-one {
+  background: var(--color--1C2025);
+  border-radius: 16px;
+  height: 412px;
+  padding: 78px 113px 0 53px;
+  margin-bottom: 22px;
+  color: blue;
+}
+.custom-card-one:last-child {
+  margin-bottom: 0;
+}
+
+.figure {
+  min-width: 279px;
+}
+
+.figure > * {
+  transition: 0.4s;
+}
+
+.figure:hover .figure-img {
+  transform: scale(1.2);
+}
+
+.card-step {
+  margin-right: 27px;
+}
+.card-step:last-child {
+  margin-right: 0;
+}
