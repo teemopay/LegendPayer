@@ -38,7 +38,7 @@ export default function InPage() {
             <Image
               isZoomed
               classNames={{
-                img: "w-full min-h-[199px] md:max-w-[744px] md:max-h-[443px] rounded-none",
+                img: "w-full min-h-[199px] md:min-w-[335px] md:max-w-[744px] md:max-h-[443px] rounded-none",
               }}
               alt="country"
               height="100%"
