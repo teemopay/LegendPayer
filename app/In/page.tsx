@@ -49,7 +49,7 @@ export default function InPage() {
         </FadeIn>
         <FadeIn>
           <div className="md:flex items-center justify-between mb-[78px] md:mb-[168px] flex-row-reverse">
-            <div className="flex-1 md:min-w-[500px] md:pl-[48px]">
+            <div className="flex-1 md:min-w-[500px] md:max-w-[600px] md:pl-[48px]">
               <div className="md:max-w-[711px] mb-[15px] md:mb-[40px]">
                 <PrimaryTitle
                   align="text-left"
@@ -63,6 +63,7 @@ export default function InPage() {
               />
             </div>
             <Image
+              className="md:max-w-[741px]"
               isZoomed
               classNames={{
                 img: "w-full min-h-[199px] md:max-w-[741px]  md:max-h-[443px] rounded-none",
