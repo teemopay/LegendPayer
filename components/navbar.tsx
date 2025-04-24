@@ -207,7 +207,8 @@ export const Navbar = () => {
                   <NextLink
                     key={s.id}
                     className="block text-sm leading-[16px] py-[8px]"
-                    href="#"
+                    href={s.href}
+                    onClick={() => setIsOpen(false)}
                   >
                     {s.title}
                   </NextLink>
