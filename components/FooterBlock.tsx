@@ -30,7 +30,12 @@ export const FooterBlock = () => {
             </div>
             <div className="grid  grid-cols-5 gap-x-[16px] md:gap-x-[20px]">
               {AppsList.map((i) => (
-                <NextLink className="block" key={i.id} href={i.href}>
+                <NextLink
+                  className="block"
+                  key={i.id}
+                  href={i.href}
+                  target={i.target}
+                >
                   <Image
                     radius="none"
                     classNames={{
@@ -56,6 +61,7 @@ export const FooterBlock = () => {
                     className="block text-[14px] leading-[21px] text-white mb-[12px] md:mb-[16px]"
                     key={s.id}
                     href={s.href}
+                    target={s.target}
                   >
                     {" "}
                     {s.title}

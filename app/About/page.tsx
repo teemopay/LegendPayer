@@ -58,17 +58,14 @@ const IndustryData = [
 ];
 export default function AboutPage() {
   const [submitted, setSubmitted] = useState(null);
-  const [isSelected, setIsSelected] = useState(false);
   const [groupSelected, setGroupSelected] = useState<string[]>([]);
-  const [isClick, setIsClick] = useState(false);
-  const onSubmit = (e) => {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const data = Object.fromEntries(new FormData(e.currentTarget));
-    console.log(data, "submit", isSelected, isClick);
-    if (!isSelected) {
-      return setIsClick(true);
-    }
-    setSubmitted(data);
+    const form = e.currentTarget;
+    const data = Object.fromEntries(new FormData(form) as any);
+    console.log(data, "data====");
+
+    // setSubmitted(data);
   };
   return (
     <div>
