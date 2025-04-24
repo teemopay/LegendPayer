@@ -37,7 +37,7 @@ export default function InPage() {
             </div>
             <Image
               classNames={{
-                img: "md:max-w-[744px] rounded-none",
+                img: "min-h-[199px] md:max-w-[744px] md:max-h-[443px] rounded-none",
               }}
               alt="country"
               height="100%"
@@ -63,7 +63,7 @@ export default function InPage() {
             </div>
             <Image
               classNames={{
-                img: "md:max-w-[741px] rounded-none",
+                img: "min-h-[199px] md:max-w-[741px]  md:max-h-[443px] rounded-none",
               }}
               alt="country"
               height="100%"
