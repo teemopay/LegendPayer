@@ -36,8 +36,9 @@ export default function InPage() {
               />
             </div>
             <Image
+              isZoomed
               classNames={{
-                img: "min-h-[199px] md:max-w-[744px] md:max-h-[443px] rounded-none",
+                img: "w-full min-h-[199px] md:max-w-[744px] md:max-h-[443px] rounded-none",
               }}
               alt="country"
               height="100%"
@@ -62,8 +63,9 @@ export default function InPage() {
               />
             </div>
             <Image
+              isZoomed
               classNames={{
-                img: "min-h-[199px] md:max-w-[741px]  md:max-h-[443px] rounded-none",
+                img: "w-full min-h-[199px] md:max-w-[741px]  md:max-h-[443px] rounded-none",
               }}
               alt="country"
               height="100%"
