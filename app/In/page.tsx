@@ -38,11 +38,11 @@ export default function InPage() {
             <Image
               isZoomed
               classNames={{
-                img: "w-full min-h-[199px] md:min-w-[335px] md:max-w-[744px] md:max-h-[443px] rounded-none",
+                img: "w-full min-h-[199px]  md:max-w-[744px] md:max-h-[443px] rounded-none",
               }}
-              alt="country"
+              alt="picture"
               height="100%"
-              src="/images/Join/1.png"
+              src="/images/join/1.png"
               width="100%"
             />
           </div>
@@ -63,14 +63,13 @@ export default function InPage() {
               />
             </div>
             <Image
-              className="md:max-w-[741px]"
               isZoomed
               classNames={{
                 img: "w-full min-h-[199px] md:max-w-[741px]  md:max-h-[443px] rounded-none",
               }}
               alt="country"
               height="100%"
-              src="/images/Join/4.png"
+              src="/images/join/4.png"
               width="100%"
             />
           </div>
