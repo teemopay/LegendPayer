@@ -61,11 +61,11 @@ export const Navbar = () => {
 
             <div className="flex-1 text-right">
               <NextLink className="navbar-link " href="#">
-                Solution
+                Our solution
               </NextLink>
 
               <NextLink className="navbar-link" href="#">
-                Resource
+                Resources
               </NextLink>
               <NextLink className="navbar-link" href="#">
                 Company
@@ -85,7 +85,7 @@ export const Navbar = () => {
           {/* 子级菜单 */}
           <div className="navbar-child  w-full absolute top-full flex justify-center">
             <div className="w-full max-w-[1500px]  flex justify-start items-center">
-              <div className="navbar-child-title">Solution</div>
+              <div className="navbar-child-title">Our solution</div>
               <NextLink
                 className="navbar-child-item pr-[40px] md:pr-[60px]  xl:pr-[153px]"
                 href="/Payins"
@@ -104,7 +104,7 @@ export const Navbar = () => {
           </div>
           <div className="navbar-child  w-full absolute top-full flex justify-center">
             <div className="w-full max-w-[1500px]  flex justify-start items-center">
-              <div className="navbar-child-title">Resource</div>
+              <div className="navbar-child-title">Resources</div>
               <NextLink
                 className="navbar-child-item pr-[40px] md:pr-[60px]  xl:pr-[153px]"
                 href="/MX"
