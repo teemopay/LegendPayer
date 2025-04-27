@@ -66,7 +66,7 @@ export const CardCountry = () => {
                   img: "w-[32px] h-[32px] min-w-[32px] min-h-[32px]",
                 }}
                 height={32}
-                src={`/images/country/${i.code}-icon.png`}
+                src={`/images/country/${i.icon}-icon.png`}
                 width={32}
               />
               <div className="flex-1 px-[7px] text-left">{i.title}</div>
