@@ -90,7 +90,7 @@ export const JobsObj = {
       {
         id: 1,
         sub: "Location: ",
-        title: "Remote (Preferably based in Latin America)",
+        title: "Remote(Preferably based in Latin America)",
       },
       {
         id: 2,
@@ -350,7 +350,7 @@ export const WorkData = [
     tags: [
       {
         id: 21,
-        title: "Remote (Preferably based in Latin America)",
+        title: "Remote(Preferably based in Latin America)",
       },
       {
         id: 22,

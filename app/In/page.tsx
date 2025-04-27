@@ -93,109 +93,107 @@ export default function InPage() {
         <FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] mb-[63px] md:mb-[137px]">
             {WorkData.map((i) => (
-              <NextLink
-                className="home-hover flex items-center"
-                href={i.href}
+              <div
                 key={i.id}
+                className="flex flex-col justify-between bg-[#1C2025] rounded-2xl px-[12px] md:px-[24px] pt-[17px] pb-[27px] md:pt-[33px] pb-[30px]"
               >
-                <div
-                  key={i.id}
-                  className="flex flex-col justify-between bg-[#1C2025] rounded-2xl px-[12px] md:px-[24px] pt-[17px] pb-[27px] md:pt-[33px] pb-[30px]"
-                >
-                  <div>
-                    <div className="font-medium text-white text-[15px] leading-[20px] md:text-[32px] md:leading-[50px] mb-[9px] md:mb-[27px]">
-                      {i.title}
-                    </div>
-                    <div className="flex items-center flex-wrap mb-[17px] md:mb-[32px]">
-                      {i.tags.map((t) => (
-                        <div
-                          key={t.id}
-                          className="line-clamp-1 mb-[8px] md:mb-0 bg-[#009853] text-[#fff] md:px-[16px] px-[12px] py-[10px] md:py-[4px] rounded-full text-[12px] leading-[12px] md:text-[14px] md:leading-[16px]  mr-[15px]"
-                        >
-                          {t.title}
-                        </div>
-                      ))}
-                    </div>
-                    {i.id !== 4 && (
+                <div>
+                  <div className="font-medium text-white text-[15px] leading-[20px] md:text-[32px] md:leading-[50px] mb-[9px] md:mb-[27px]">
+                    {i.title}
+                  </div>
+                  <div className="flex items-center flex-wrap mb-[17px] md:mb-[32px]">
+                    {i.tags.map((t) => (
+                      <div
+                        key={t.id}
+                        className="line-clamp-1 mb-[8px]  bg-[#009853] text-[#fff] md:px-[16px] px-[12px] py-[10px] md:py-[4px] rounded-full text-[12px] leading-[12px] md:text-[14px] md:leading-[16px]  mr-[15px]"
+                      >
+                        {t.title}
+                      </div>
+                    ))}
+                  </div>
+                  {i.id !== 4 && (
+                    <MediumTitle
+                      className="line-clamp-3 mb-[24px] md:mb-[26px]"
+                      align="text-left"
+                      title={i.cnt}
+                    />
+                  )}
+                  {i.id === 4 && (
+                    <div className="mb-[24px] md:mb-[26px]">
                       <MediumTitle
-                        className="line-clamp-3 mb-[24px] md:mb-[26px]"
+                        className="line-clamp-3 "
                         align="text-left"
                         title={i.cnt}
                       />
-                    )}
-                    {i.id === 4 && (
-                      <div className="mb-[24px] md:mb-[26px]">
-                        <MediumTitle
-                          className="line-clamp-3 "
-                          align="text-left"
-                          title={i.cnt}
+                      <MediumTitle
+                        className="line-clamp-3 "
+                        align="text-left"
+                        title={i.sub}
+                      />
+                    </div>
+                  )}
+                </div>
+                <NextLink
+                  className="home-hover flex items-center"
+                  href={i.href}
+                  key={i.id}
+                >
+                  <MediumTitle
+                    textColor="text-[#009853]"
+                    align="text-left"
+                    title="View more"
+                    className="mr-[4px] md:mr-[10px]"
+                  />
+                  <svg
+                    className="home-hover-text  w-[18px] h-[18px] md:w-[27px] md:h-[27px]"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 27 27"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Mask group">
+                      <mask
+                        id="mask0_1578_433"
+                        style={{ maskType: "alpha" }}
+                        maskUnits="userSpaceOnUse"
+                        x={0}
+                        y={0}
+                        width={27}
+                        height={27}
+                      >
+                        <rect
+                          id="Rectangle 590"
+                          x="0.748047"
+                          y="0.9375"
+                          width="25.3238"
+                          height="25.3238"
+                          fill="#D9D9D9"
+                          stroke="#009853"
                         />
-                        <MediumTitle
-                          className="line-clamp-3 "
-                          align="text-left"
-                          title={i.sub}
-                        />
-                      </div>
-                    )}
-                  </div>
-                  <div className="home-hover flex items-center">
-                    <MediumTitle
-                      textColor="text-[#009853]"
-                      align="text-left"
-                      title="View more"
-                      className="mr-[4px] md:mr-[10px]"
-                    />
-                    <svg
-                      className="home-hover-text  w-[18px] h-[18px] md:w-[27px] md:h-[27px]"
-                      width="100%"
-                      height="100%"
-                      viewBox="0 0 27 27"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g id="Mask group">
-                        <mask
-                          id="mask0_1578_433"
-                          style={{ maskType: "alpha" }}
-                          maskUnits="userSpaceOnUse"
-                          x={0}
-                          y={0}
-                          width={27}
-                          height={27}
-                        >
-                          <rect
-                            id="Rectangle 590"
-                            x="0.748047"
-                            y="0.9375"
-                            width="25.3238"
-                            height="25.3238"
-                            fill="#D9D9D9"
+                      </mask>
+                      <g mask="url(#mask0_1578_433)">
+                        <g id="Group 667">
+                          <path
+                            id="Vector 85"
+                            d="M4.19629 13.5977H21.9649"
                             stroke="#009853"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
                           />
-                        </mask>
-                        <g mask="url(#mask0_1578_433)">
-                          <g id="Group 667">
-                            <path
-                              id="Vector 85"
-                              d="M4.19629 13.5977H21.9649"
-                              stroke="#009853"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                            />
-                            <path
-                              id="Rectangle 589"
-                              d="M13.5039 4.38477L22.7401 13.6209C22.7791 13.66 22.7791 13.7233 22.7401 13.7623L13.5039 22.9985"
-                              stroke="#009853"
-                              strokeWidth="1.5"
-                              strokeLinecap="round"
-                            />
-                          </g>
+                          <path
+                            id="Rectangle 589"
+                            d="M13.5039 4.38477L22.7401 13.6209C22.7791 13.66 22.7791 13.7233 22.7401 13.7623L13.5039 22.9985"
+                            stroke="#009853"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                          />
                         </g>
                       </g>
-                    </svg>
-                  </div>
-                </div>
-              </NextLink>
+                    </g>
+                  </svg>
+                </NextLink>
+              </div>
             ))}
           </div>
         </FadeIn>
