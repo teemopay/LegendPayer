@@ -59,12 +59,18 @@ const IndustryData = [
 export default function AboutPage() {
   const [submitted, setSubmitted] = useState(null);
   const [groupSelected, setGroupSelected] = useState<string[]>([]);
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form) as any);
-    console.log(data, "data====");
-    // setSubmitted(data);
+    const { isSelected, ...o } = data;
+    const response = await fetch("/api/sendMessage", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ message: o }),
+    });
   };
   return (
     <div>
@@ -428,7 +434,7 @@ export default function AboutPage() {
                   errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
                 }}
                 className="w-full mb-[18px] md:mb-[52px]"
-                label="How can Pagsmile help your business? Feel free to ask anything."
+                label="How can Teemopay help your business? Feel free to ask anything."
                 labelPlacement="outside"
                 name="help"
                 errorMessage="Please Enter"
