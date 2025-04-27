@@ -194,7 +194,7 @@ export const MobileNavbarList = [
   },
   {
     title: "Resources",
-    label: "Resources",
+    label: "Markets",
     id: 2,
     child: [
       {
