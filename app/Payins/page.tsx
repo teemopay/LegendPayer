@@ -8,24 +8,35 @@ import { PageWrap } from "@/components/PageWrap";
 import { PrimaryTitle, SubTitle } from "@/components/Text";
 import { Button } from "@heroui/button";
 import NextLink from "next/link";
-import { FadeIn } from "@/components/Animateitem";
+import { FadeText } from "@/components/Animateitem";
 
 export default function PayinsPage() {
   return (
     <div className="w-full">
       <div className="payins-page bg-center md:bg-center  xl:bg-right min-h-[546px] md:min-h-[824px] md:mb-[62px] md:mb-[115px] rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payins/bg-2.png')] md:bg-[url('/images/payins/bg.png')]">
         <PageWrap>
-          <PrimaryTitle
-            align="text-left"
-            className="md:max-w-[804px] mb-[20px] md:mb-[46px]"
-            title="Localized payment processing solutions"
-          ></PrimaryTitle>
-          <SubTitle
-            className="mb-[38px]  md:mb-[46px] md:max-w-[500px]"
-            align="text-left"
-            title="We offer localized payment solutions to support your business growth."
-          />
-          <NextLink className="block" href="/About">
+          <FadeText>
+            <PrimaryTitle
+              align="text-left"
+              className="md:max-w-[804px] mb-[20px] md:mb-[46px]"
+              title="Localized payment processing solutions"
+            ></PrimaryTitle>
+          </FadeText>
+          <FadeText>
+            <SubTitle
+              className="mb-[38px]  md:mb-[46px] md:max-w-[500px]"
+              align="text-left"
+              title="We offer localized payment solutions to support your business growth."
+            />
+          </FadeText>
+          <NextLink
+            className="block"
+            href={{
+              pathname: "/About",
+              query: { type: "1" },
+              hash: "concat",
+            }}
+          >
             <Button
               className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
               radius="full"

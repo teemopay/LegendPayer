@@ -78,7 +78,7 @@ export default function AboutPage() {
           <SubTitle className="mb-[40px] md:mb-[69px]" title={sub} />
         </FadeIn>
         <FadeIn>
-          <div className="cursor-pointer md:px-[26.5px] grid grid-cols-1 md:grid-cols-3 gap-x-[49px] gap-y-[10px] md:gap-y-[39px] mb-[80px] md:mb-[140px]">
+          <div className="cursor-pointer md:px-[26.5px] grid grid-cols-1 md:grid-cols-3 gap-x-[49px] gap-y-[10px] md:gap-y-[39px] ">
             <div className="md:col-span-2 md:row-span-2  md:max-h-[635px] max-h-[199px]">
               <Image
                 classNames={{
@@ -110,6 +110,7 @@ export default function AboutPage() {
             />
           </div>
         </FadeIn>
+        <div id="concat" className="mb-[80px] md:mb-[140px]"></div>
         <FadeIn>
           <PrimaryTitle
             className="mb-[68px] md:mb-[100px]"

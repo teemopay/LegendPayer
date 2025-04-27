@@ -115,16 +115,16 @@ export default function JoinPage() {
             </div>
             <Applytext />
           </div>
-          <div className="w-[416px] max-w-[416px]">
+          <div className="md:w-[416px] md:max-w-[416px]">
             <div
               className="flex justify-between cursor-pointer"
               onClick={() => setOpen(!open)}
             >
-              <div className="font-semibold text-[12px] leading-[20px] md:text-[22px] md:leading-[50px]">
+              <div className="flex-1 font-semibold text-[12px] leading-[20px] md:text-[22px] md:leading-[50px]">
                 Other positions
               </div>
               <svg
-                className={` select-country  ${open ? "menu-open" : "menu-close"}`}
+                className={` select-country  ${open ? "menu-open" : "menu-close"} w-[18px] min-w-[18px]`}
                 width="18"
                 height="18"
                 viewBox="0 0 27 27"
@@ -158,7 +158,7 @@ export default function JoinPage() {
             </div>
           </div>
         </div>
-        <div className="mt-[114px] md:mt-0 mb-[114px]">
+        <div className="mt-[40px] md:mt-0 mb-[114px]">
           <NextLink className="block" href="/About">
             <Button
               radius="full"

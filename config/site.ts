@@ -16,10 +16,10 @@ export const siteConfig = {
       label: "Pricing",
       href: "/pricing",
     },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
+    // {
+    //   label: "Blog",
+    //   href: "/blog",
+    // },
     {
       label: "About",
       href: "/about",
@@ -172,12 +172,12 @@ export const MobileNavbarList = [
         id: 31,
         target: "_self",
       },
-      {
-        title: "Blog",
-        href: "/Blog",
-        id: 32,
-        target: "_self",
-      },
+      // {
+      //   title: "Blog",
+      //   href: "/Blog",
+      //   id: 32,
+      //   target: "_self",
+      // },
       {
         title: "About us",
         href: "/About",

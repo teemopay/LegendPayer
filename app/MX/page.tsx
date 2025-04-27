@@ -1,7 +1,6 @@
 import { PageWrap, CountryButton } from "@/components/PageWrap";
 import {
   PrimaryTitle,
-  SubTitle,
   MediumXlTitle,
   CountrySub,
   MinTitle,
@@ -17,7 +16,8 @@ import {
   MobileMinProgress,
   MXIcon,
 } from "@/components/ProgressBlock";
-import { FadeIn } from "@/components/Animateitem";
+import { FadeIn, FadeText } from "@/components/Animateitem";
+import { TypingAnimation } from "@/components/magicui/typing-animation";
 
 export default function MXPage() {
   const currentObj = countryObj["MX"];
@@ -28,7 +28,13 @@ export default function MXPage() {
           <div className="pt-[30px] md:pt-[152px]">
             <div className="flex flex-col md:flex-row items-center md:items-end md:justify-between md:mb-[80px] mb-[30px] md:pl-[41px]">
               <PrimaryTitle
-                title={currentObj.title}
+                title={
+                  <>
+                    <TypingAnimation className="min-h-[37px] md:min-h-[68px] font-semibold w-full text-[32px] leading-[37px]  md:text-6xl md:leading-[4.25rem]">
+                      {currentObj.title}
+                    </TypingAnimation>
+                  </>
+                }
                 className="md:text-left text-center mb-[26px] md:mb-0"
               />
               <CountrySelect country="Mexico" />
@@ -90,10 +96,13 @@ export default function MXPage() {
         </PageWrap>
       </div>
       <PageWrap>
-        <PrimaryTitle
-          className="mb-[30px] md:mb-[92px]"
-          title={currentObj.second.title}
-        />
+        <FadeIn>
+          <PrimaryTitle
+            className="mb-[30px] md:mb-[92px]"
+            title={currentObj.second.title}
+          />
+        </FadeIn>
+
         <section id="progress" className="mb-[10px] md:mb-[96px]">
           <div className="grid grid-cols-1 lg:grid-cols-2  gap-[10px] md:gap-[34px] mb-[10px] md:mb-[28px]">
             <FadeIn>

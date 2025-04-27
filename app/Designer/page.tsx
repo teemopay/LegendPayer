@@ -152,7 +152,7 @@ export default function DesignPage() {
             </div>
           </div>
         </div>
-        <div className="mt-[114px] md:mt-0 mb-[114px]">
+        <div className="mt-[40px] md:mt-0 mb-[114px]">
           <NextLink className="block" href="/About">
             <Button
               radius="full"

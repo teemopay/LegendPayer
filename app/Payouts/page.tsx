@@ -13,24 +13,35 @@ import { Button } from "@heroui/button";
 import NextLink from "next/link";
 import { PageWrap } from "@/components/PageWrap";
 import { Marquee } from "@/components/magicui/marquee";
-import { FadeIn } from "@/components/Animateitem";
+import { FadeIn, FadeText } from "@/components/Animateitem";
 
 export default function PayputsPage() {
   return (
     <div className="w-full">
       <div className="payins-page bg-center  min-h-[546px] md:min-h-[824px] md:mb-[62px] md:mb-[115px] rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payout/bg-1.png')] md:bg-[url('/images/payout/bg.png')]">
         <PageWrap>
-          <PrimaryTitle
-            align="text-left"
-            className="md:max-w-[500px] mb-[20px] md:mb-[46px] break-keep"
-            title="Speedy and cost-effective global payouts"
-          ></PrimaryTitle>
-          <SubTitle
-            className="mb-[38px]  md:mb-[46px] md:max-w-[500px]"
-            align="text-left"
-            title="Send payouts to the local accounts of your customers and partners quickly"
-          />
-          <NextLink className="block" href="/About">
+          <FadeText>
+            <PrimaryTitle
+              align="text-left"
+              className="md:max-w-[500px] mb-[20px] md:mb-[46px] break-keep"
+              title="Speedy and cost-effective global payouts"
+            ></PrimaryTitle>
+          </FadeText>
+          <FadeText>
+            <SubTitle
+              className="mb-[38px]  md:mb-[46px] md:max-w-[500px]"
+              align="text-left"
+              title="Send payouts to the local accounts of your customers and partners quickly"
+            />
+          </FadeText>
+          <NextLink
+            className="block"
+            href={{
+              pathname: "/About",
+              query: { type: "1" },
+              hash: "concat",
+            }}
+          >
             <Button
               className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
               radius="full"

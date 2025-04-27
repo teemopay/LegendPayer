@@ -16,7 +16,6 @@ import { Button } from "@heroui/button";
 import { HomeArrow, StepIcon } from "@/components/icons";
 import { Tabs, Tab } from "@heroui/tabs";
 import { FadeIn, FadeText } from "@/components/Animateitem";
-
 import NextLink from "next/link";
 
 export default function Home() {
@@ -30,18 +29,34 @@ export default function Home() {
             className="md:max-w-[804px] mb-[20px] md:mb-[46px]"
             title={
               <>
-                Global <span className="text-[#009853]">one-stop </span> <br />
-                payment experience
+                <FadeText>
+                  Global <span className="text-[#009853]">one-stop</span> <br />
+                  payment experience
+                </FadeText>
               </>
             }
           ></PrimaryTitle>
           <SubTitle
             className="mb-[38px]  md:mb-[46px] md:max-w-[700px]"
             align="text-left"
-            title="Connect to the global payment network to provide enterprises 
-            with efficient, convenient and secure one-stop payment solutions."
+            title={
+              <>
+                <FadeText>
+                  Connect to the global payment network to provide enterprises
+                  with efficient, convenient and secure one-stop payment
+                  solutions.
+                </FadeText>
+              </>
+            }
           />
-          <NextLink className="block" href="/About">
+          <NextLink
+            className="block"
+            href={{
+              pathname: "/About",
+              query: { type: "1" },
+              hash: "concat",
+            }}
+          >
             <Button
               className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
               radius="full"
@@ -260,7 +275,14 @@ export default function Home() {
                     }
                   ></Tab>
                 </Tabs>
-                <NextLink className="block" href="/About">
+                <NextLink
+                  className="block"
+                  href={{
+                    pathname: "/About",
+                    query: { type: "1" },
+                    hash: "concat",
+                  }}
+                >
                   <Button
                     className="w-full h-[48px] text-white bg-[#009853] text-[20px]"
                     radius="full"

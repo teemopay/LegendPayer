@@ -70,7 +70,14 @@ export const Navbar = () => {
               <NextLink className="navbar-link" href="#">
                 Company
               </NextLink>
-              <NextLink className="navbar-link-btn" href="/About">
+              <NextLink
+                className="navbar-link-btn"
+                href={{
+                  pathname: "/About",
+                  query: { type: "1" },
+                  hash: "concat",
+                }}
+              >
                 Get in touch
               </NextLink>
             </div>
@@ -117,12 +124,12 @@ export const Navbar = () => {
               >
                 Jobs
               </NextLink>
-              <NextLink
+              {/* <NextLink
                 className="navbar-child-item pr-[40px] md:pr-[60px] xl:pr-[153px]"
                 href="/Blog"
               >
                 Blog
-              </NextLink>
+              </NextLink> */}
               <NextLink
                 className="navbar-child-item pr-[40px] md:pr-[60px]  xl:pr-[153px]"
                 href="/About"

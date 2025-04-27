@@ -19,6 +19,7 @@ import {
   CountrySelect,
 } from "@/components/ProgressBlock";
 import { FadeIn } from "@/components/Animateitem";
+import { TypingAnimation } from "@/components/magicui/typing-animation";
 
 export default function PEPage() {
   const currentObj = countryObj["PE"];
@@ -29,7 +30,13 @@ export default function PEPage() {
           <div className="pt-[30px] md:pt-[152px]">
             <div className="flex flex-col md:flex-row items-center md:items-end md:justify-between md:mb-[80px] mb-[30px] md:pl-[41px]">
               <PrimaryTitle
-                title={currentObj.title}
+                title={
+                  <>
+                    <TypingAnimation className="min-h-[37px] md:min-h-[68px] font-semibold w-full text-[32px] leading-[37px]  md:text-6xl md:leading-[4.25rem]">
+                      {currentObj.title}
+                    </TypingAnimation>
+                  </>
+                }
                 className="md:text-left text-center mb-[26px] md:mb-0"
               />
               <CountrySelect country="Peru" />

@@ -38,10 +38,8 @@ export const CountrySelect = ({ country }: Props) => {
   return (
     <Dropdown className="custome-menu" onOpenChange={setOpen}>
       <DropdownTrigger>
-        <div className="flex items-center  rounded-full w-[183px] md:w-[227px] h-[40px] md:h-[48px]  bg-white text-[#009853] text-[16px] md:text-[20px] font-medium border-[#009853] border-[3px]">
-          <span className="inline-block min-w-[120px] text-center">
-            {country}
-          </span>
+        <div className="flex items-center justify-center  rounded-full w-[183px] md:w-[227px] h-[40px] md:h-[48px]  bg-white text-[#009853] text-[16px] md:text-[20px] font-medium border-[#009853] border-[3px]">
+          <span className="inline-block  text-center">{country}</span>
           <svg
             className={` select-country  ${open ? "menu-open" : "menu-close"}`}
             width="27"
