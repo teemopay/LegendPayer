@@ -64,7 +64,6 @@ export default function AboutPage() {
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form) as any);
     console.log(data, "data====");
-
     // setSubmitted(data);
   };
   return (
@@ -119,7 +118,7 @@ export default function AboutPage() {
         </FadeIn>
         <section className="mb-[174px] md:mb-[184px]" id="form">
           <div className="max-w-[1068px] mx-auto">
-            <Form className="w-full" onSubmit={onSubmit}>
+            <Form className="w-full" onSubmit={onSubmit} autoComplete="off">
               <div className="w-full grid grid-cols-1 md:grid-cols-2 md:gap-x-[32px]">
                 <Input
                   className="!mt-0 mb-[66px] md:mb-[89px]"

@@ -29,21 +29,23 @@ export default function PayinsPage() {
               title="We offer localized payment solutions to support your business growth."
             />
           </FadeText>
-          <NextLink
-            className="block"
-            href={{
-              pathname: "/About",
-              query: { type: "1" },
-              hash: "concat",
-            }}
-          >
-            <Button
-              className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
-              radius="full"
+          <FadeText>
+            <NextLink
+              className="block"
+              href={{
+                pathname: "/About",
+                query: { type: "1" },
+                hash: "concat",
+              }}
             >
-              Start now
-            </Button>
-          </NextLink>
+              <Button
+                className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
+                radius="full"
+              >
+                Start now
+              </Button>
+            </NextLink>
+          </FadeText>
         </PageWrap>
       </div>
 

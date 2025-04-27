@@ -81,7 +81,7 @@ export const CardStep = () => {
           onMouseLeave={handleMouseLeave}
           onMouseUp={handleMouseUp}
           onMouseMove={handleMouseMove}
-          className="hide-scrollbar flex gap-x-[16px] md:gap-x-[27px]  grid-cols-5 overflow-x-scroll md:mb-[77px]"
+          className="hide-scrollbar flex md:gap-x-[27px]  grid-cols-5 overflow-x-scroll md:mb-[77px]"
         >
           {StartList.map((i) => {
             const Icon = i.icon;
@@ -94,7 +94,7 @@ export const CardStep = () => {
                   <div className="font-bold text-[13px] md:text-xl text-white mb-[4px] leading-[23px]">
                     {i.title}
                   </div>
-                  <div className="text-xs md:text-sm text-white  leading-[16px] md:h-[97px] h-[84px] md:mb-[63px]">
+                  <div className="text-xs md:text-sm text-white  leading-[16px] md:h-[97px] h-[97px] md:mb-[63px]">
                     {i.sub}
                   </div>
                   <div className="w-full flex items-center justify-center">

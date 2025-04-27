@@ -233,6 +233,7 @@ export const HomeArrow = ({ className }: Props) => (
 export const StepOne: React.FC<IconSvgProps> = ({ ...props }) => {
   return (
     <svg
+      className="w-[57px] h-[57px] md:w-[105px] md:h-[105px]"
       width="105"
       height="105"
       viewBox="0 0 105 105"
@@ -275,6 +276,7 @@ export const StepOne: React.FC<IconSvgProps> = ({ ...props }) => {
 export const StepTwo: React.FC<IconSvgProps> = ({ ...props }) => {
   return (
     <svg
+      className="w-[57px] h-[57px] md:w-[105px] md:h-[105px]"
       width="105"
       height="105"
       viewBox="0 0 105 105"
@@ -303,6 +305,7 @@ export const StepTwo: React.FC<IconSvgProps> = ({ ...props }) => {
 export const StepThree: React.FC<IconSvgProps> = ({ ...props }) => {
   return (
     <svg
+      className="w-[57px] h-[57px] md:w-[105px] md:h-[105px]"
       width="105"
       height="105"
       viewBox="0 0 105 105"
@@ -340,6 +343,7 @@ export const StepThree: React.FC<IconSvgProps> = ({ ...props }) => {
 export const StepFour: React.FC<IconSvgProps> = ({ ...props }) => {
   return (
     <svg
+      className="w-[57px] h-[57px] md:w-[105px] md:h-[105px]"
       width="105"
       height="105"
       viewBox="0 0 105 105"
@@ -368,6 +372,7 @@ export const StepFour: React.FC<IconSvgProps> = ({ ...props }) => {
 export const StepFive: React.FC<IconSvgProps> = ({ ...props }) => {
   return (
     <svg
+      className="w-[57px] h-[57px] md:w-[105px] md:h-[105px]"
       width="87"
       height="105"
       viewBox="0 0 87 105"

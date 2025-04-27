@@ -11,12 +11,17 @@ export default function InPage() {
     <div className="bg-[#000]">
       <div className="country-head-bg  min-h-[596px] md:min-h-[660px] md:mb-[149px] mb-[68px] md:pt-[240px] pt-[30px]   bg-[url('/images/join/3.png')]">
         <PageWrap>
-          <PrimaryTitle align="text-left" title="Your career." />
-          <PrimaryTitle align="text-left" title="You  might be the perfect. " />
-          <div className="text-[12px] leading-[18px] mt-[25px] md:text-[20px] md:leading-[36px] md:mt-[36px] max-w-[555px]">
-            Search jobs by category to find a position and a team where you can
-            make an impact.
-          </div>
+          <FadeText>
+            <PrimaryTitle align="text-left" title="Your career." />
+            <PrimaryTitle
+              align="text-left"
+              title="You  might be the perfect. "
+            />
+            <div className="text-[12px] leading-[18px] mt-[25px] md:text-[20px] md:leading-[36px] md:mt-[36px] max-w-[555px]">
+              Search jobs by category to find a position and a team where you
+              can make an impact.
+            </div>
+          </FadeText>
         </PageWrap>
       </div>
       <PageWrap>

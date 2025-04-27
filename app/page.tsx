@@ -49,21 +49,23 @@ export default function Home() {
               </>
             }
           />
-          <NextLink
-            className="block"
-            href={{
-              pathname: "/About",
-              query: { type: "1" },
-              hash: "concat",
-            }}
-          >
-            <Button
-              className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
-              radius="full"
+          <FadeText>
+            <NextLink
+              className="block"
+              href={{
+                pathname: "/About",
+                query: { type: "1" },
+                hash: "concat",
+              }}
             >
-              Get in touch
-            </Button>
-          </NextLink>
+              <Button
+                className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
+                radius="full"
+              >
+                Get in touch
+              </Button>
+            </NextLink>
+          </FadeText>
         </PageWrap>
       </div>
       {/* Country-specific solutions */}
@@ -109,8 +111,9 @@ export default function Home() {
               />
             </FadeIn>
           </div>
-          <FadeIn>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[32px] gap-y-[20px] md:gap-y-[30px]   mb-[20px] md:mb-[30px]">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[32px] gap-y-[20px] md:gap-y-[30px]   mb-[20px] md:mb-[30px]">
+            <FadeIn>
               <div className="flex flex-col justify-between bg-[#1C2025] p-[24px] md:p-[53px] rounded-2xl min-h-[252px] md:h-[553px] md:min-h-[252px]">
                 <div className="mb-[42px] md:mb-0">
                   <SecondaryTitle
@@ -142,6 +145,8 @@ export default function Home() {
                   <HomeArrow className="home-hover-text" />
                 </NextLink>
               </div>
+            </FadeIn>
+            <FadeIn>
               <div className="flex flex-col justify-between bg-[#1C2025] p-[24px] md:p-[53px] rounded-2xl min-h-[252px] md:h-[553px] md:min-h-[252px]">
                 <div>
                   <SecondaryTitle
@@ -152,7 +157,7 @@ export default function Home() {
                   <div className="flex justify-end">
                     <Image
                       classNames={{
-                        img: "max-h-[173px] md:max-w-[362px] md:max-h-[383px]",
+                        img: "max-h-[173px] max-w-[164px] md:max-w-[362px] md:max-h-[383px]",
                       }}
                       alt="country"
                       height="100%"
@@ -174,8 +179,8 @@ export default function Home() {
                   <HomeArrow className="home-hover-text" />
                 </NextLink>
               </div>
-            </div>
-          </FadeIn>
+            </FadeIn>
+          </div>
           <FadeIn>
             <div className="lg:flex flex-row bg-[#1C2025] rounded-2xl lg:h-[411px]">
               <div className="flex-1 md:min-w-[500px] p-[24px] md:p-[53px] flex flex-col justify-between">

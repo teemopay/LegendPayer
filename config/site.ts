@@ -232,23 +232,18 @@ export const AppsList = [
     target: "_blank",
   },
   {
-    id: 2,
-    href: "",
-    target: "_blank",
-  },
-  {
     id: 3,
     href: "https://www.linkedin.com/company/teemo-pay",
     target: "_blank",
   },
   {
     id: 4,
-    href: "https://www.instagram.com/teemopay9/",
+    href: "https://www.instagram.com/teemopay_mkt/",
     target: "_blank",
   },
   {
     id: 5,
-    href: "#",
+    href: "mailto:danae@teemopay.com",
     target: "_blank",
   },
 ];
