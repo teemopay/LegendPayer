@@ -1,4 +1,5 @@
 "use client";
+import { useRef } from "react";
 import "@/styles/Card.css";
 import {
   StepOne,
@@ -8,10 +9,6 @@ import {
   StepFive,
 } from "@/components/icons";
 import { Card, CardBody } from "@heroui/card";
-import { Progress } from "@heroui/progress";
-import NextLink from "next/link";
-import { Button } from "@heroui/button";
-import { PageWrap } from "@/components/PageWrap";
 
 const StartList = [
   {
@@ -46,16 +43,51 @@ const StartList = [
   },
 ];
 export const CardStep = () => {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  let isDown = false;
+  let startX = 0;
+  let scrollLeft = 0;
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    isDown = true;
+    startX = e.pageX - (scrollRef.current?.offsetLeft || 0);
+    scrollLeft = scrollRef.current?.scrollLeft || 0;
+  };
+
+  const handleMouseLeave = () => {
+    isDown = false;
+  };
+
+  const handleMouseUp = () => {
+    isDown = false;
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - (scrollRef.current?.offsetLeft || 0);
+    const walk = (x - startX) * 1; // 滚动速度，乘以1就是同步
+    if (scrollRef.current) {
+      scrollRef.current.scrollLeft = scrollLeft - walk;
+    }
+  };
   return (
     <div className=" mb-[52px] md:mb-[289px]">
       <div className="w-full max-w-[1520px] pl-[20px]  mx-auto">
-        <div className="hide-scrollbar flex gap-x-[16px] md:gap-x-[27px]  grid-cols-5 overflow-x-scroll md:mb-[77px]">
+        <div
+          ref={scrollRef}
+          onMouseDown={handleMouseDown}
+          onMouseLeave={handleMouseLeave}
+          onMouseUp={handleMouseUp}
+          onMouseMove={handleMouseMove}
+          className="hide-scrollbar flex gap-x-[16px] md:gap-x-[27px]  grid-cols-5 overflow-x-scroll md:mb-[77px]"
+        >
           {StartList.map((i) => {
             const Icon = i.icon;
             return (
               <Card
                 key={i.id}
-                isPressable
                 className="card-step w-[191px] min-w-[191px] h-[254px] md:w-[348px] md:min-w-[348px] md:h-[461px]  relative cursor-pointer rounded-2xl"
               >
                 <CardBody className="overflow-visible p-[19px] md:p-[35px] relative">
