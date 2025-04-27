@@ -392,7 +392,7 @@ export const JoinDecTitle = ({ title, className }: Props) => {
 export const JoinDecCnt = ({ title, className }: Props) => {
   return (
     <div
-      className={`text-[12px] leading-[14px] text-left md:text-[20px] md:leading-[23px] text-[#D1D1D1] ${className}`}
+      className={`text-[12px] leading-[14px] text-left md:text-[20px] md:leading-[23px] text-[#D1D1D1] ${className} break-word`}
     >
       {title}
     </div>
