@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "@heroui/link";
 import { PageWrap } from "@/components/PageWrap";
 import { BtnLink } from "@/components/BtnLink";
@@ -12,6 +12,7 @@ import { Button } from "@heroui/button";
 import { Select, SelectSection, SelectItem } from "@heroui/select";
 import { Checkbox, CheckboxGroup } from "@heroui/checkbox";
 import { FadeIn } from "@/components/Animateitem";
+import { addToast, ToastProvider } from "@heroui/toast";
 
 const title = "Your Trusted Global Payment Solutions Provider";
 const sub =
@@ -58,19 +59,35 @@ const IndustryData = [
 ];
 export default function AboutPage() {
   const [submitted, setSubmitted] = useState(null);
+  const [isOpen, setOpen] = useState(false);
   const [groupSelected, setGroupSelected] = useState<string[]>([]);
+  useEffect(() => {
+    setOpen(false);
+    return () => {
+      setOpen(false);
+    };
+  }, []); // 注意：依赖数组一定是空的，表示只挂载和卸载时执行
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setOpen(false);
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form) as any);
     const { isSelected, ...o } = data;
-    const response = await fetch("/api/sendMessage", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ message: o }),
-    });
+    if (window.confirm("Are you sure you want to submit?")) {
+      setOpen(true);
+      const response = await fetch("/api/sendMessage", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message: o }),
+      });
+    } else {
+      setOpen(false);
+    }
+    setTimeout(() => {
+      setOpen(false);
+    }, 80);
   };
   return (
     <div>
@@ -489,6 +506,9 @@ export default function AboutPage() {
           <BtnLink />
         </div>
       </PageWrap>
+      <div className={`toast ${isOpen ? " opacity-1" : "opacity-0"}`}>
+        <div className="toast-msg">Successful</div>
+      </div>
     </div>
   );
 }
