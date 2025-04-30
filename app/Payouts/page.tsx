@@ -12,7 +12,7 @@ import { Image } from "@heroui/image";
 import { Button } from "@heroui/button";
 import NextLink from "next/link";
 import { PageWrap } from "@/components/PageWrap";
-import { Marquee } from "@/components/magicui/marquee";
+import Marquee from "@/components/ui/marquee";
 import { FadeIn, FadeText } from "@/components/Animateitem";
 
 export default function PayputsPage() {

@@ -17,7 +17,7 @@ import {
   MXIcon,
 } from "@/components/ProgressBlock";
 import { FadeIn, FadeText } from "@/components/Animateitem";
-import { TypingAnimation } from "@/components/magicui/typing-animation";
+import { TypingAnimation } from "@/components/ui/typing-animation";
 
 export default function MXPage() {
   const currentObj = countryObj["MX"];

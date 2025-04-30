@@ -19,7 +19,7 @@ import {
   CountrySelect,
 } from "@/components/ProgressBlock";
 import { FadeIn } from "@/components/Animateitem";
-import { TypingAnimation } from "@/components/magicui/typing-animation";
+import { TypingAnimation } from "@/components/ui/typing-animation";
 
 export default function PEPage() {
   const currentObj = countryObj["PE"];
