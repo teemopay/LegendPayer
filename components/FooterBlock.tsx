@@ -58,12 +58,11 @@ export const FooterBlock = () => {
                 </div>
                 {i.child.map((s) => (
                   <NextLink
-                    className="block text-[14px] leading-[21px] text-white mb-[12px] md:mb-[16px]"
+                    className="block a-color-hover text-[14px] leading-[21px] text-white mb-[12px] md:mb-[16px]"
                     key={s.id}
                     href={s.href}
                     target={s.target}
                   >
-                    {" "}
                     {s.title}
                   </NextLink>
                 ))}
