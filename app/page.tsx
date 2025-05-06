@@ -129,7 +129,7 @@ export default function Home() {
                   <div className="mb-[42px] md:mb-0">
                     <SecondaryTitle
                       align="text-left"
-                      className="md:max-w-[500px] mb-[44px] md:mb-[62px]"
+                      className="md:max-w-[500px] mb-[57px] md:mb-[108px]"
                       title="Localized solution for payment processing"
                     />
                     <Image
