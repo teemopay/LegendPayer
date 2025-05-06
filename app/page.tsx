@@ -221,7 +221,7 @@ export default function Home() {
                 <div className="flex items-end">
                   <Image
                     classNames={{
-                      img: "md:max-h-[409px]",
+                      img: "md:max-h-[409px] md:max-w-[794px]",
                     }}
                     alt="country"
                     height="100%"
