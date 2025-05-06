@@ -73,8 +73,8 @@ export const CardStep = () => {
     }
   };
   return (
-    <div className=" mb-[52px] md:mb-[289px]">
-      <div className="w-full max-w-[1520px] pl-[20px]  mx-auto">
+    <div className="relative mb-[52px] md:mb-[289px] pl-[20px]  md:pl-[60px] 2xl:pl-0">
+      <div className="relative w-full max-w-[1500px]  mx-auto scroll-mask ">
         <div
           ref={scrollRef}
           onMouseDown={handleMouseDown}

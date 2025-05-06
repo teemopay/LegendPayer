@@ -147,7 +147,7 @@ export default function PEPage() {
         <FadeIn>
           <section id="pay-way" className=" mb-[107px] md:mb-[77px]">
             <div className="lg:flex items-center justify-between  rounded-3xl  bg-[#1C2025] p-[20px] md:pl-[37px] md:pr-[37px] md:py-[57]">
-              <div className="lg:max-w-[597px] lg:min-w-[597px]">
+              <div className="lg:max-w-[597px] lg:min-w-[597px] md:mr-[40px]">
                 <MediumXlTitle
                   className="mb-[20px] md:mb-[18px]"
                   title="Method of payment"
@@ -156,10 +156,10 @@ export default function PEPage() {
                   <CountrySub key={i.id} title={i.title} sub={i.sub} />
                 ))}
               </div>
-              <div className="lg:max-w-[730px]  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0">
+              <div className="mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 lg:pr-[37px]">
                 <Image
                   classNames={{
-                    img: "md:max-h-[170px] lg:max-w-[730px]",
+                    img: "min-h-[65px] min-w-[218px]  md:max-h-[170px] md:max-w-[551px]",
                   }}
                   alt="country"
                   height="100%"

@@ -9,11 +9,11 @@ export const BtnLink = () => {
       {siteConfig.btnLinks.map((i) => (
         <NextLink
           href={i.href}
-          className="btn-link h-[88px] md:h-[126px] px-[28px] md:px-[40px] text-[14px]  md:text-[24px] flex items-center justify-between w-full md:w-sm"
+          className="btn-link h-[88px] md:h-[126px] px-[28px] md:px-[40px] text-[14px] md:text-[20px]  lg:text-[24px] flex items-center justify-between w-full md:w-sm"
           key={i.id}
         >
           <div className="btn-link-mask" />
-          <div className="btn-link-text flex items-center justify-between">
+          <div className="btn-link-text px-[28px] md:px-[18px]  lg:px-[39px] flex items-center justify-between">
             <div className="flex-1 truncate">{i.label}</div>
             <span className="flex items-center justify-center btn-link-arrow">
               <svg

@@ -29,7 +29,6 @@
   width: 100%;
   height: 100%;
   white-space: nowrap;
-  padding: 0 40px;
 }
 
 .btn-link:hover .btn-link-mask {

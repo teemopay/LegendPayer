@@ -88,7 +88,7 @@ export default function PayputsPage() {
           />
         </div>
       </NextLink>
-      <div className="w-full px-[20px]">
+      <div className="w-full px-[20px] md:px-[60px]">
         <div className="content-wrap  w-full max-w-[1500px]  mx-auto">
           <NextLink
             className="block"

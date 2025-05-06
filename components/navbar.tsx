@@ -49,7 +49,7 @@ export const Navbar = () => {
         ref={wrapperRef}
       >
         <div className="w-full relative h-[88px] flex justify-center">
-          <div className="w-full relative h-full flex items-center justify-between max-w-[1500px] bg-[#000] 2xl:px-0 px-[18px] box-border">
+          <div className="w-full relative h-full flex items-center justify-between max-w-[1500px] bg-[#000]  md:mx-[60px] box-border">
             <NextLink className="block max-w-[217px] cursor-pointer" href="/">
               <Image
                 alt="HeroUI hero Image with delay"
@@ -150,7 +150,7 @@ export const Navbar = () => {
         </div>
       </div>
       {/* 移动端 */}
-      <div className="block md:hidden h-full bg-[#000] flex items-center justify-between px-[18px] cursor-pointer">
+      <div className="block md:hidden h-full bg-[#000] flex items-center justify-between px-[20px] cursor-pointer">
         <NextLink className="block max-w-[152px] cursor-pointer" href="/">
           <Image
             alt="HeroUI hero Image with delay"

@@ -22,7 +22,7 @@ export default function Home() {
   const [selected, setSelected] = useState<string | number>();
   return (
     <div className="w-full">
-      <div className="md:px-[20px] home-page bg-bottom  md:bg-center xl:bg-right   min-h-[528px] md:min-h-[874px] md:mb-[62px] md:mb-[115px] rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/home/m-bg.png')] md:bg-[url('/images/home/bg.png')]">
+      <div className="home-page bg-bottom  md:bg-center xl:bg-center   min-h-[528px] md:min-h-[874px] md:mb-[62px] md:mb-[115px] rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/home/m-bg.png')] md:bg-[url('/images/home/bg.png')]">
         <PageWrap>
           <NextLink
             className="block"
@@ -134,12 +134,13 @@ export default function Home() {
                     />
                     <Image
                       classNames={{
-                        img: "min-h-[81px] md:max-h-[171px]",
+                        img: "md:max-h-[107px] md:max-w-[626px]",
                       }}
                       alt="country"
                       height="1005"
                       src="/images/home/payins.png"
                       width="100%"
+                      radius="none"
                     />
                   </div>
 
@@ -319,6 +320,7 @@ export default function Home() {
                         height="100%"
                         src="/images/home/step-1.png"
                         width="100%"
+                        radius="none"
                       />
                     </>
                   ) : (

@@ -7,7 +7,11 @@ type Props = {
 };
 
 export const PageWrap = ({ children }: { children: React.ReactNode }) => {
-  return <div className="max-w-[1540px]  mx-auto px-[20px]">{children}</div>;
+  return (
+    <div className="max-w-[1500px] box-content  mx-auto px-[20px] md:px-[60px]">
+      {children}
+    </div>
+  );
 };
 
 export const CountryButton = ({ title, className }: Props) => {

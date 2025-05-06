@@ -270,7 +270,7 @@ export const FortyEightTitle = ({
 export const BgText = ({ title, sub, className }: Props) => {
   return (
     <div
-      className={`relative overflow-hidden  sweep-away bg-text  w-full px-[20px] pt-[39px] md:pt-[71px]  pb-[37px] md:pb-[81px] ${className}`}
+      className={`relative overflow-hidden  sweep-away bg-text  w-full px-[20px] md:px-[60px] pt-[39px] md:pt-[71px]  pb-[37px] md:pb-[81px] ${className}`}
     >
       <div className="mb-[22px] mb-[24px]">
         <FadeIn>
