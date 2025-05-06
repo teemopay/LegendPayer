@@ -18,7 +18,7 @@ import { FadeIn, FadeText } from "@/components/Animateitem";
 export default function PayputsPage() {
   return (
     <div className="w-full">
-      <div className="payins-page bg-center  min-h-[546px] md:min-h-[824px] md:mb-[62px] md:mb-[115px] rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payout/bg-1.png')] md:bg-[url('/images/payout/bg.png')]">
+      <div className="payins-page bg-center  min-h-[546px] md:min-h-[824px]  rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payout/bg-1.png')] md:bg-[url('/images/payout/bg.png')]">
         <PageWrap>
           <NextLink
             className="block"
