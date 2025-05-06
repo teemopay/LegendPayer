@@ -314,7 +314,7 @@ export default function Home() {
                     <>
                       <Image
                         classNames={{
-                          img: "max-h-[418px]",
+                          img: "max-h-[420px]",
                         }}
                         alt="country"
                         height="100%"
