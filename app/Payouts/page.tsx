@@ -100,7 +100,7 @@ export default function PayputsPage() {
           >
             <section className="mb-[105px] md:mb-[207px]">
               <FadeIn>
-                <div className="flex-1 md:flex mb-[30px] md:mb-[34px]">
+                <div className="flex-1 md:flex mb-[30px] md:mb-[100px]">
                   <Image
                     className="mb-[30px] md:mb-0 "
                     classNames={{
@@ -134,7 +134,7 @@ export default function PayputsPage() {
                 </div>
               </FadeIn>
               <FadeIn>
-                <div className="md:flex mb-[30px] md:mb-[34px] flex-row-reverse">
+                <div className="md:flex mb-[30px] md:mb-[100px] flex-row-reverse">
                   <Image
                     className="mb-[30px] md:mb-0 md:ml-[46px] ml-0"
                     classNames={{
@@ -158,7 +158,7 @@ export default function PayputsPage() {
                 </div>
               </FadeIn>
               <FadeIn>
-                <div className="md:flex mb-[30px] md:mb-[34px]">
+                <div className="md:flex mb-[30px] md:mb-[140px]">
                   <Image
                     className="mb-[30px] md:mb-0 "
                     classNames={{
