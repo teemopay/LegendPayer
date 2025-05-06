@@ -182,7 +182,7 @@ export default function MXPage() {
               <div className="md:hidden flex-1  items-center justify-center  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 md:pt-[28px] md:pl-[37px]">
                 <Image
                   classNames={{
-                    img: "min-h-[28px] max-w-[219px]",
+                    img: "min-h-[28px] min-w-[219px]",
                   }}
                   alt="country"
                   height="100%"

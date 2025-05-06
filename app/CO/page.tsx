@@ -164,7 +164,7 @@ export default function COPage() {
               <div className="lg:max-w-[730px]  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 lg:pr-[37px]">
                 <Image
                   classNames={{
-                    img: "max-h-[63px] max-w-[143px]   md:max-h-[202px] md:max-w-[449px]",
+                    img: "min-h-[63px] min-w-[143px]   md:max-h-[202px] md:max-w-[449px]",
                   }}
                   alt="country"
                   height="100%"
