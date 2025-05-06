@@ -13,7 +13,7 @@ import { FadeText } from "@/components/Animateitem";
 export default function PayinsPage() {
   return (
     <div className="w-full cursor-pointer">
-      <div className="payins-page bg-center md:bg-center  xl:bg-center min-h-[546px] md:min-h-[824px] md:mb-[62px] md:mb-[115px] rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payins/bg-2.png')] md:bg-[url('/images/payins/bg.png')] ">
+      <div className="payins-page bg-center md:bg-center  xl:bg-center min-h-[546px] md:min-h-[824px]  rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payins/bg-2.png')] md:bg-[url('/images/payins/bg.png')] ">
         <PageWrap>
           <NextLink
             className="block"
