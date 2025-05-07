@@ -104,7 +104,7 @@ export default function AboutPage() {
             <div className="md:col-span-2 md:row-span-2  md:max-h-[635px] max-h-[199px]">
               <Image
                 classNames={{
-                  img: "min-w-[335px]  md:max-h-[635px] max-h-[199px]",
+                  img: "min-w-[335px] md:max-w-[951px]  md:max-h-[635px] max-h-[199px]",
                 }}
                 isZoomed
                 alt="picture"
