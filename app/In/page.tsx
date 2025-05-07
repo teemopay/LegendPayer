@@ -103,11 +103,11 @@ export default function InPage() {
                   <div className="font-medium text-white text-[15px] leading-[20px] md:text-[32px] md:leading-[50px] mb-[9px] md:mb-[27px]">
                     {i.title}
                   </div>
-                  <div className="flex items-center flex-wrap mb-[17px] md:mb-[32px]">
+                  <div className="flex items-center flex-wrap mb-[7px] md:mb-[32px]">
                     {i.tags.map((t) => (
                       <div
                         key={t.id}
-                        className="line-clamp-1 mb-[8px]  bg-[#009853] text-[#fff] md:px-[16px] px-[12px] py-[10px] md:py-[4px] rounded-full text-[12px] leading-[12px] md:text-[14px] md:leading-[16px]  mr-[15px]"
+                        className="line-clamp-1 mb-[8px]  bg-[#009853] text-[#fff] md:px-[16px] px-[12px] py-[5px]  md:py-[10px] md:py-[4px] rounded-full text-[12px] leading-[12px] md:text-[14px] md:leading-[16px]  mr-[15px]"
                       >
                         {t.title}
                       </div>

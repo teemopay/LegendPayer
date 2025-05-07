@@ -110,6 +110,7 @@ export default function AboutPage() {
                 alt="picture"
                 src="/images/about/about-1.png"
                 width="100%"
+                height="100%"
               />
             </div>
             <Image
@@ -120,6 +121,7 @@ export default function AboutPage() {
               alt="picture"
               src="/images/about/about-2.png"
               width="100%"
+              height="100%"
             />
             <Image
               classNames={{
@@ -129,6 +131,7 @@ export default function AboutPage() {
               alt="picture"
               src="/images/about/about-3.png"
               width="100%"
+              height="100%"
             />
           </div>
         </FadeIn>
