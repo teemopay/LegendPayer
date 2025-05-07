@@ -45,7 +45,7 @@ export const Navbar = () => {
     <div className="w-full fixed navbar top-0 left-0  h-[68px] md:h-[88px] bg-[#000] z-[9999]">
       {/* web端 */}
       <div
-        className="relative hidden md:block  w-full   h-[88px] "
+        className="hidden lg:block relative   w-full   h-[88px] "
         ref={wrapperRef}
       >
         <div className="w-full relative h-[88px] flex justify-center">
@@ -150,7 +150,7 @@ export const Navbar = () => {
         </div>
       </div>
       {/* 移动端 */}
-      <div className="block md:hidden h-full bg-[#000] flex items-center justify-between px-[20px] cursor-pointer">
+      <div className="block lg:hidden h-full bg-[#000] flex items-center justify-between px-[20px] cursor-pointer">
         <NextLink className="block max-w-[152px] cursor-pointer" href="/">
           <Image
             alt="HeroUI hero Image with delay"

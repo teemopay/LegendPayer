@@ -114,7 +114,7 @@ export default function COPage() {
         </FadeIn>
         <FadeIn>
           <section id="progress" className="mb-[10px] md:mb-[148px] ">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[80px] gap-y-[10px] rounded-2xl  md:rounded-3xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[40px] lg:gap-x-[20px]  xl:gap-x-[80px] gap-y-[10px] rounded-2xl  md:rounded-3xl">
               {currentObj.second.list.map((i) => (
                 <CardWrap key={i.id}>
                   <div
@@ -161,7 +161,7 @@ export default function COPage() {
                   <CountrySub key={i.id} title={i.title} sub={i.sub} />
                 ))}
               </div>
-              <div className="lg:max-w-[730px]  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 lg:pr-[37px]">
+              <div className="flex flex-1  items-center justify-center lg:max-w-[730px]  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 ">
                 <Image
                   classNames={{
                     img: "min-h-[63px] min-w-[143px]   md:max-h-[202px] md:max-w-[449px]",

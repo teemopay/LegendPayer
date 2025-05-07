@@ -159,7 +159,7 @@ export default function MXPage() {
         <FadeIn>
           <section id="pay-way" className=" mb-[107px] md:mb-[77px]">
             <div className="lg:flex items-center justify-between  rounded-3xl  bg-[#1C2025] p-[20px] md:pl-[37px] md:pr-[37px] md:py-[57]">
-              <div className="lg:max-w-[597px] lg:min-w-[597px] md:mr-[40px]">
+              <div className="md:max-w-[480px] xl:max-w-[597px]  md:mr-[40px]">
                 <MediumXlTitle
                   className="mb-[10px] md:mb-[78px]"
                   title="Method of payment"
@@ -168,25 +168,14 @@ export default function MXPage() {
                   <CountrySub key={i.id} title={i.title} sub={i.sub} />
                 ))}
               </div>
-              <div className="hidden md:flex flex-1  items-center justify-center  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 md:pt-[28px] md:pl-[37px]">
+              <div className="flex flex-1  items-center justify-center  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 md:pt-[28px] lg:pl-[37px] ">
                 <Image
                   classNames={{
-                    img: "min-h-[139px] md:max-w-[254px]  md:max-h-[425px]",
+                    img: "min-h-[28px] min-w-[219px   md:max-w-[545px] md:max-h-[69px]",
                   }}
                   alt="country"
                   height="100%"
                   src="/images/country/mx-way.png"
-                  width="100%"
-                />
-              </div>
-              <div className="md:hidden flex-1  items-center justify-center  mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 md:pt-[28px] md:pl-[37px]">
-                <Image
-                  classNames={{
-                    img: "min-h-[28px] min-w-[219px]",
-                  }}
-                  alt="country"
-                  height="100%"
-                  src="/images/country/mx-way-m.png"
                   width="100%"
                 />
               </div>

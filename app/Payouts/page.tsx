@@ -18,7 +18,7 @@ import { FadeIn, FadeText } from "@/components/Animateitem";
 export default function PayputsPage() {
   return (
     <div className="w-full">
-      <div className="payins-page bg-center  min-h-[546px] md:min-h-[824px]  rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payout/bg-1.png')] md:bg-[url('/images/payout/bg.png')]">
+      <div className="payins-page bg-center md:bg-left  lg:bg-center  min-h-[546px] md:min-h-[824px]  rounded-none pt-[30px]  md:pt-[135px] md:pb-[31px] bg-[url('/images/payout/bg-1.png')] md:bg-[url('/images/payout/bg.png')]">
         <PageWrap>
           <NextLink
             className="block"
@@ -31,7 +31,7 @@ export default function PayputsPage() {
             <FadeText>
               <PrimaryTitle
                 align="text-left"
-                className="md:max-w-[500px] mb-[20px] md:mb-[46px] break-keep"
+                className="md:max-w-[500px] mb-[20px] md:mb-[46px] break-keep "
                 title="Speedy and cost-effective global payouts"
               ></PrimaryTitle>
             </FadeText>
@@ -100,21 +100,21 @@ export default function PayputsPage() {
           >
             <section className="mb-[105px] md:mb-[207px]">
               <FadeIn>
-                <div className="flex-1 md:flex mb-[30px] md:mb-[100px]">
+                <div className="flex-1 md:flex md:items-center xl:items-start mb-[30px] md:mb-[100px]">
                   <Image
                     className="mb-[30px] md:mb-0 "
                     classNames={{
-                      wrapper: "md:mr-[46px] mr-0",
-                      img: "w-full md:min-w-[335px] md:max-w-[712px] md:max-h-[380px]  rounded-none",
+                      wrapper: "md:mr-[40px] lg:mr-[46px] mr-0",
+                      img: "w-full min-w-[335px] md:max-w-[335px] md:max-h-[179px]   lg:max-w-[712px] lg:max-h-[380px]  rounded-none",
                     }}
                     alt="picture"
                     src="/images/payout/1.png"
                     width="100%"
                     height="100%"
                   />
-                  <div className="flex flex-col justify-center md:max-w-[743px]">
+                  <div className="flex flex-col justify-center lg:max-w-[743px] xl:pt-[28px]">
                     <LarageTitle
-                      className="text-center md:text-left mb-[20px]"
+                      className="text-center md:text-left mb-[20px] md:text-[20px] leading-[22px]"
                       title={
                         <>
                           A truly global network for{" "}
@@ -127,14 +127,14 @@ export default function PayputsPage() {
                       }
                     />
                     <MediumTitle
-                      className="text-center md:text-left "
+                      className="text-center md:text-left md:text-[16px] "
                       title="By supporting 130+ currencies, 180+ countries and regions, both SWIFT and multiple local clearing networks, our payout services facilitate the rapid global distribution of your funds, including to China."
                     />
                   </div>
                 </div>
               </FadeIn>
               <FadeIn>
-                <div className="md:flex mb-[30px] md:mb-[100px] flex-row-reverse">
+                <div className="md:flex md:items-center  mb-[30px] md:mb-[100px] flex-row-reverse">
                   <Image
                     className="mb-[30px] md:mb-0 md:ml-[46px] ml-0"
                     classNames={{
@@ -158,19 +158,19 @@ export default function PayputsPage() {
                 </div>
               </FadeIn>
               <FadeIn>
-                <div className="md:flex mb-[30px] md:mb-[140px]">
+                <div className="md:flex md:items-center xl:items-start mb-[30px] md:mb-[140px]">
                   <Image
                     className="mb-[30px] md:mb-0 "
                     classNames={{
                       wrapper: "md:mr-[46px] mr-0 flex-1",
-                      img: "md:min-w-[335px] md:min-h-[175px]  md:max-w-[687px] md:max-h-[360px]  rounded-none",
+                      img: "min-w-[335px] min-h-[175px] md:max-w-[335px] md:max-h-[175px] lg:max-w-[687px] lg:max-h-[360px]  rounded-none",
                     }}
                     alt="picture"
                     src="/images/payout/3.png"
                     width="100%"
                     height="100%"
                   />
-                  <div className="flex flex-col justify-center md:max-w-[743px]">
+                  <div className="flex flex-col justify-center md:max-w-[743px] xl:pt-[20px]">
                     <LarageTitle
                       className="text-center md:text-left mb-[20px]"
                       title="Transparent and competitive fees"
@@ -183,19 +183,19 @@ export default function PayputsPage() {
                 </div>
               </FadeIn>
               <FadeIn>
-                <div className="md:flex mb-[30px] md:mb-[34px] flex-row-reverse">
+                <div className="md:flex md:items-center  xl:items-start  mb-[30px] md:mb-[34px] flex-row-reverse">
                   <Image
                     className="mb-[30px] md:mb-0 "
                     classNames={{
                       wrapper: "md:ml-[46px] mr-0 flex-1",
-                      img: "md:min-w-[335px] md:min-h-[176px]  md:max-w-[698px] md:max-h-[368px]  rounded-none",
+                      img: "min-w-[335px] md:max-w-[335px] md:max-h-[176px]  lg:max-w-[698px] lg:max-h-[368px]  rounded-none",
                     }}
                     alt="picture"
                     src="/images/payout/4.png"
                     width="100%"
                     height="100%"
                   />
-                  <div className="flex flex-col justify-center md:max-w-[759px]">
+                  <div className="flex flex-col justify-center md:max-w-[759px] xl:pt-[20px]">
                     <LarageTitle
                       className="text-center md:text-left mb-[20px]"
                       title="Efficient Payout Automation"
@@ -339,22 +339,25 @@ export default function PayputsPage() {
                       height="100%"
                       src="/images/payout/5.png"
                       width="100%"
+                      isZoomed
                     />
                   </div>
-                  <div className="max-w-[837px] pt-[26px] lg:pt-[61px]  px-[12px] lg:px-[60px] pb-[16px] lg:pb-[49px] bg-[#1C2025] rounded-2xl md:max-h-[761px] mt-[20px] md:mt-0">
-                    <LarageTitle
-                      title="Transparent and competitive fees"
-                      align="text-left"
-                      className="mb-[10px] md:mb-[20px]"
-                    />
-                    <MediumTitle
-                      align="text-left"
-                      title="We offer low fees and transparent exchange rates to reduce your overall payment costs."
-                      className="mb-[34px] md:mb-[60px]"
-                    />
+                  <div className="flex flex-col justify-between max-w-[837px] pt-[26px] lg:pt-[61px]  px-[12px] lg:px-[60px] pb-[16px] lg:pb-[49px] bg-[#1C2025] rounded-2xl md:max-h-[761px] mt-[20px] md:mt-0">
+                    <div>
+                      <LarageTitle
+                        title="Transparent and competitive fees"
+                        align="text-left"
+                        className="mb-[10px] md:mb-[20px]"
+                      />
+                      <MediumTitle
+                        align="text-left"
+                        title="We offer low fees and transparent exchange rates to reduce your overall payment costs."
+                        className="mb-[34px] md:mb-[60px]"
+                      />
+                    </div>
                     <Image
                       classNames={{
-                        img: "w-fullmd:min-w-[305px] md:min-h-[164px]  md:max-w-[696px] md:max-h-[364px]  rounded-none",
+                        img: "w-full min-w-[305px] md:min-w-[305px] md:min-h-[164px]  lg:max-w-[696px] lg:max-h-[364px]  rounded-none",
                       }}
                       alt="country"
                       height="100%"

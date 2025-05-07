@@ -27,15 +27,16 @@ export default function InPage() {
       <PageWrap>
         <FadeIn>
           <div className="md:flex items-center justify-between mb-[78px] md:mb-[168px]">
-            <div className="flex-1 md:min-w-[500px]">
-              <div className="md:max-w-[714px] mb-[15px] md:mb-[40px]">
+            <div className="flex-1 md:min-w-[340px] lg:min-w-[500px] md:pr-[20px]">
+              <div className="md:max-w-[714px] mb-[15px] md:mb-[40px] ">
                 <PrimaryTitle
                   align="text-left"
                   title="Shape the future of commerce with Teemopay."
+                  className="md:text-[22px] md:leading-[30px]  lg:text-6xl lg:leading-[4.25rem] "
                 />
               </div>
               <MediumTitle
-                className="max-w-[671px] mb-[38px] md:mb-0"
+                className="max-w-[671px] mb-[38px] md:mb-0 md:text-[18px] lg:text-xl "
                 align="text-left"
                 title="We believe groundbreaking innovation starts with exceptional people. That’s why we provide personalized benefits supporting every life stage, empowering you to thrive at work and beyond. Ready to leave your mark? Join us in redefining what’s possible."
               />
@@ -54,15 +55,16 @@ export default function InPage() {
         </FadeIn>
         <FadeIn>
           <div className="md:flex items-center justify-between mb-[78px] md:mb-[168px] flex-row-reverse">
-            <div className="flex-1 md:min-w-[500px] md:max-w-[600px] md:pl-[48px]">
+            <div className="flex-1 md:min-w-[340px] lg:min-w-[500px]   md:pl-[48px]">
               <div className="md:max-w-[711px] mb-[15px] md:mb-[40px]">
                 <PrimaryTitle
+                  className="md:text-[22px] md:leading-[30px]  lg:text-6xl lg:leading-[4.25rem] "
                   align="text-left"
                   title="Employee wellness drives everything we do."
                 />
               </div>
               <MediumTitle
-                className="max-w-[668px] mb-[38px] md:mb-0"
+                className="max-w-[668px] mb-[38px] md:mb-0 md:text-[18px] lg:text-xl "
                 align="text-left"
                 title="We invest in your holistic well-being with benefits and resources designed to help you thrive."
               />

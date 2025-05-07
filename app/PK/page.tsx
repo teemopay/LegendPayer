@@ -123,7 +123,7 @@ export default function PkPage() {
         </FadeIn>
         <FadeIn>
           <section id="progress" className="mb-[10px] md:mb-[148px] ">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[80px] gap-y-[10px] rounded-2xl  md:rounded-3xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[40px] lg:gap-x-[20px]  xl:gap-x-[80px] gap-y-[10px] rounded-2xl  md:rounded-3xl">
               {currentObj.second.list.map((i) => (
                 <CardWrap key={i.id}>
                   <div
@@ -170,10 +170,10 @@ export default function PkPage() {
                   <CountrySub key={i.id} title={i.title} sub={i.sub} />
                 ))}
               </div>
-              <div className="lg:max-w-[520px]  mb-[22px] lg:mb-0 xl:pr-[127px] mt-[30px] lg:mt-0">
+              <div className="flex flex-1  items-center justify-center   mb-[22px] lg:mb-0  mt-[30px] lg:mt-0 lg:pl-[37px]">
                 <Image
                   classNames={{
-                    img: " lg:max-w-[393px]",
+                    img: "min-w-[144px] min-h-[28px]  md:max-w-[416px] md:max-h-[87px]",
                   }}
                   alt="country"
                   height="100%"

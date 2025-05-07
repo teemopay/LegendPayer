@@ -96,7 +96,7 @@ export const LarageTitle = ({
 }: Props) => {
   return (
     <div
-      className={`w-full text-[20px] leading-[24px]  md:text-5xl font-medium  md:leading-[3.625rem] text-white ${align}  cursor-pointer ${className}`}
+      className={`w-full text-[20px] leading-[24px]  lg:text-5xl font-medium  lg:leading-[3.625rem] text-white ${align}  cursor-pointer ${className}`}
     >
       {title}
     </div>
@@ -117,7 +117,7 @@ export const MediumTitle = ({
 }: Props) => {
   return (
     <div
-      className={`text-[14px] md:text-xl  leading-[1.4375rem] ${textColor} ${align} cursor-pointer ${className}`}
+      className={`text-[14px] md:text-[20px]  leading-[23px] ${textColor} ${align} cursor-pointer ${className}`}
     >
       {title}
     </div>
