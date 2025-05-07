@@ -97,14 +97,14 @@ export const CircularProgress = ({
   gradientTransform = "rotate(-156)",
   className,
 }: Props) => {
-  const strokeDasharray = 2 * r * Math.PI;
-  const strokeDashoffset = (1 - value / 100) * 2 * Math.PI * r;
+  const circumference = 2 * Math.PI * r;
+  const strokeDashoffset = circumference - (circumference * value) / 100;
   return (
     <svg
       width={width}
       height={height}
       viewBox="0 0 224 224"
-      className={`${className}`}
+      className={`${className} comment-progress`}
     >
       <defs>
         <linearGradient
@@ -128,14 +128,13 @@ export const CircularProgress = ({
         stroke="url(#progress-gradient)"
         strokeWidth="18"
         strokeLinecap="round"
-        strokeDasharray={strokeDasharray}
+        strokeDasharray={circumference}
         strokeDashoffset={strokeDashoffset}
-        transform="rotate(-270 112 112)"
-        initial={{ strokeDashoffset: strokeDasharray }}
+        initial={{ strokeDashoffset: circumference }}
         transition={{
-          duration: 3,
-          ease: [0.16, 1, 0.3, 1],
-          delay: 0.1,
+          duration: 1,
+          ease: [0.4, 0, 0.2, 1],
+          delay: 0.3,
         }}
         whileInView={{ strokeDashoffset }}
       />
@@ -201,7 +200,7 @@ export const MinProgress = ({ value = 0, className }: Props) => {
   const strokeDasharray = 2 * r * Math.PI;
   const strokeDashoffset = (1 - value / 100) * 2 * Math.PI * r;
   return (
-    <svg className={`${className}`} width="58px" height="58px">
+    <svg className={`${className} comment-progress`} width="58px" height="58px">
       <circle
         cx="50%"
         cy="50%"
@@ -220,7 +219,6 @@ export const MinProgress = ({ value = 0, className }: Props) => {
         strokeLinecap="round"
         strokeDasharray={strokeDasharray}
         strokeDashoffset={strokeDashoffset}
-        transform="rotate(-270 29 29)"
         initial={{ strokeDashoffset: strokeDasharray }}
         transition={{
           duration: 3,
@@ -238,6 +236,7 @@ export const MinProgress = ({ value = 0, className }: Props) => {
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="#1C2025"
+          transform="rotate(-270 29 29)"
         />
       </g>
     </svg>

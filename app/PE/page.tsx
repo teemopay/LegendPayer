@@ -116,7 +116,12 @@ export default function PEPage() {
               {currentObj.second.list.map((i) => (
                 <FadeIn key={i.id}>
                   <CardWrap key={i.id}>
-                    <div className="flex items-center justify-center country-card-progress w-[234px] h-[234px] md:w-[300px] md:h-[300px] bg-[url('/images/country/card-1.png')] mx-auto">
+                    <div
+                      className="flex items-center justify-center country-card-progress w-[234px] h-[234px] md:w-[300px] md:h-[300px] bg-[url('/images/country/card-1.png')] mx-auto"
+                      style={{
+                        backgroundImage: `url('/images/country/card-${i.id}.png')`,
+                      }}
+                    >
                       <CircularProgress
                         key="web"
                         className="hidden md:block"

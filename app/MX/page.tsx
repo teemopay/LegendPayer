@@ -135,7 +135,7 @@ export default function MXPage() {
               <FadeIn key={i.id}>
                 <div
                   key={i.id}
-                  className="flex flex-col justify-between md:min-h-[198px] rounded-2xl md:rounded-3xl bg-[#1C2025] p-[20px] md:p-[35px]"
+                  className="h-full flex flex-col justify-between md:min-h-[198px] rounded-2xl md:rounded-3xl bg-[#1C2025] p-[20px] md:p-[35px]"
                 >
                   <div className="mb-[12px] md:mb-[28px]">{i.title}</div>
                   <div className="flex items-center">
