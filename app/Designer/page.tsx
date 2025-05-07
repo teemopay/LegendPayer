@@ -109,7 +109,7 @@ export default function DesignPage() {
             </div>
             <Applytext />
           </div>
-          <div className="w-[416px] max-w-[416px]">
+          <div className="lg:w-[416px] lg:max-w-[416px]">
             <div
               className="flex justify-between cursor-pointer"
               onClick={() => setOpen(!open)}

@@ -54,7 +54,7 @@ export default function JoinPage() {
         />
       </PageWrap>
       <PageWrap>
-        <div className="md:flex items-start">
+        <div className="lg:flex items-start">
           <div className="flex-1 md:pr-[74px]">
             <JoinTitle title={jobObj.title} />
             <div className="mb-[21px] md:mb-[30px]">
@@ -115,7 +115,7 @@ export default function JoinPage() {
             </div>
             <Applytext />
           </div>
-          <div className="md:w-[416px] md:max-w-[416px]">
+          <div className="lg:w-[416px] lg:max-w-[416px]">
             <div
               className="flex justify-between cursor-pointer"
               onClick={() => setOpen(!open)}
