@@ -73,15 +73,15 @@ export const CardStep = () => {
     }
   };
   return (
-    <div className="relative mb-[52px] md:mb-[289px] pl-[20px]  md:pl-[60px] 2xl:pl-0">
-      <div className="relative w-full max-w-[1500px]  mx-auto scroll-mask ">
+    <div className="relative mb-[52px] md:mb-[289px] ">
+      <div className="w-full step-scroll-mask  box-content">
         <div
           ref={scrollRef}
           onMouseDown={handleMouseDown}
           onMouseLeave={handleMouseLeave}
           onMouseUp={handleMouseUp}
           onMouseMove={handleMouseMove}
-          className="hide-scrollbar flex md:gap-x-[27px]  grid-cols-5 overflow-x-scroll md:mb-[77px]"
+          className="hide-scrollbar scroll-mask flex md:gap-x-[27px]  grid-cols-5 overflow-x-scroll md:mb-[77px]"
         >
           {StartList.map((i) => {
             const Icon = i.icon;

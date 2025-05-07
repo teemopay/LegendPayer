@@ -5,7 +5,7 @@ import NextLink from "next/link";
 
 export const BtnLink = () => {
   return (
-    <div className="grid  grid-cols-1 md:grid-cols-3 gap-x-[32px] gap-y-[31px] md:gap-y-0">
+    <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[32px] gap-y-[31px] lg:gap-y-0">
       {siteConfig.btnLinks.map((i) => (
         <NextLink
           href={i.href}
@@ -13,8 +13,10 @@ export const BtnLink = () => {
           key={i.id}
         >
           <div className="btn-link-mask" />
-          <div className="btn-link-text px-[28px] md:px-[18px]  lg:px-[39px] flex items-center justify-between">
-            <div className="flex-1 truncate">{i.label}</div>
+          <div className="btn-link-text px-[28px] md:px-[39px] lg:px-[20px] xl:px-[39px] flex items-center justify-between">
+            <div className="flex-1 truncate text-[14px] md:text-[18px]  xl:text-[24px]">
+              {i.label}
+            </div>
             <span className="flex items-center justify-center btn-link-arrow">
               <svg
                 className="btn-link-arrow-icon"

@@ -35,7 +35,7 @@ export const CardCountry = () => {
     }
   };
   return (
-    <div className="relative w-full max-w-[1500px]  mx-auto scroll-mask pl-[20px]  md:pl-[60px] 2xl:pl-0 box-content ">
+    <div className="relative w-full  scroll-mask  box-content">
       <div
         ref={scrollRef}
         onMouseDown={handleMouseDown}

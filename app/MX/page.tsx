@@ -161,7 +161,7 @@ export default function MXPage() {
             <div className="lg:flex items-center justify-between  rounded-3xl  bg-[#1C2025] p-[20px] md:pl-[37px] md:pr-[37px] md:py-[57]">
               <div className="md:max-w-[480px] xl:max-w-[597px]  md:mr-[40px]">
                 <MediumXlTitle
-                  className="mb-[10px] md:mb-[78px]"
+                  className="mb-[20px] md:mb-[18px]"
                   title="Method of payment"
                 />
                 {currentObj.three.card.map((i) => (

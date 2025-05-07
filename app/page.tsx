@@ -97,10 +97,10 @@ export default function Home() {
               </FadeText>
             </div>
           </div>
+          <FadeIn>
+            <CardCountry />
+          </FadeIn>
         </PageWrap>
-        <FadeIn>
-          <CardCountry />
-        </FadeIn>
       </NextLink>
 
       <PageWrap>
@@ -420,10 +420,10 @@ export default function Home() {
               />
             </FadeIn>
           </section>
+          <FadeIn>
+            <CardStep />
+          </FadeIn>
         </PageWrap>
-        <FadeIn>
-          <CardStep />
-        </FadeIn>
       </NextLink>
       <PageWrap>
         <section id="start" className="mb-[46px] md:mb-[232px]">
