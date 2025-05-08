@@ -225,8 +225,8 @@ export default function PayputsPage() {
                 />
               </FadeIn>
               <FadeIn>
-                <div className="w-full lg:flex bg-[#1C2025]  px-[12px] pt-[26px] pb-[16px] md:px-[61px] md:pt-[61px] md:pb-[72px] rounded-2xl mb-[20px] md:mb-[40px]">
-                  <div className="flex-1">
+                <div className="w-full lg:flex  md:items-center xl:items-start  bg-[#1C2025]  px-[12px] pt-[26px] pb-[16px] md:px-[61px] md:pt-[61px] md:pb-[72px] rounded-2xl mb-[20px] md:mb-[40px]">
+                  <div className="flex-1 md:pr-[20px] mb-[22px] md:mb-[40px] lg:mb-0">
                     <MediumFiftyTitle
                       className="md:max-w-[742px] mb-[20px] md:mb-[30px] text-left"
                       title="Servicio Manual Respuesta en Cualquier hora"
@@ -242,16 +242,16 @@ export default function PayputsPage() {
                       whenever needed.
                     </div>
                   </div>
-                  <div className="relative flex-1 max-w-full h-[276px]   md:h-[374px] lg:max-w-[559px]  overflow-hidden">
+                  <div className="relative flex-1 max-w-full h-[276px]  md:h-[374px] lg:max-w-[559px]  overflow-hidden">
                     <Marquee
                       pauseOnHover
                       vertical
-                      className="relative [--duration:20s]"
+                      className="relative [--duration:80s] "
                     >
-                      <div className="w-full flex justify-end">
+                      <div className="w-full flex justify-end mt-[10px]">
                         <Image
                           classNames={{
-                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[478px]  rounded-none",
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
                           }}
                           alt="picture"
                           src="/images/payout/swiper-1.png"
@@ -259,10 +259,10 @@ export default function PayputsPage() {
                           height="100%"
                         />
                       </div>
-                      <div className="w-full flex justify-start">
+                      <div className="w-full flex justify-start mt-[10px]">
                         <Image
                           classNames={{
-                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[478px]  rounded-none",
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[458px]  rounded-none",
                           }}
                           alt="picture"
                           src="/images/payout/swiper-2.png"
@@ -270,10 +270,10 @@ export default function PayputsPage() {
                           height="100%"
                         />
                       </div>
-                      <div className="w-full flex justify-end">
+                      <div className="w-full flex justify-end mt-[10px]">
                         <Image
                           classNames={{
-                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[478px]  rounded-none",
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
                           }}
                           alt="picture"
                           src="/images/payout/swiper-3.png"
@@ -281,10 +281,10 @@ export default function PayputsPage() {
                           height="100%"
                         />
                       </div>
-                      <div className="w-full flex justify-start">
+                      <div className="w-full flex justify-start mt-[10px]">
                         <Image
                           classNames={{
-                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[478px]  rounded-none",
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
                           }}
                           alt="picture"
                           src="/images/payout/swiper-1.png"
@@ -292,10 +292,10 @@ export default function PayputsPage() {
                           height="100%"
                         />
                       </div>
-                      <div className="w-full flex justify-end">
+                      <div className="w-full flex justify-end mt-[10px]">
                         <Image
                           classNames={{
-                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[478px]  rounded-none",
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[458px]  rounded-none",
                           }}
                           alt="picture"
                           src="/images/payout/swiper-2.png"
@@ -303,10 +303,76 @@ export default function PayputsPage() {
                           height="100%"
                         />
                       </div>
-                      <div className="w-full flex justify-start">
+                      <div className="w-full flex justify-start mt-[10px]">
                         <Image
                           classNames={{
-                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[478px]  rounded-none",
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
+                          }}
+                          alt="picture"
+                          src="/images/payout/swiper-3.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                      <div className="w-full flex justify-end mt-[10px]">
+                        <Image
+                          classNames={{
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
+                          }}
+                          alt="picture"
+                          src="/images/payout/swiper-1.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                      <div className="w-full flex justify-start mt-[10px]">
+                        <Image
+                          classNames={{
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[458px]  rounded-none",
+                          }}
+                          alt="picture"
+                          src="/images/payout/swiper-2.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                      <div className="w-full flex justify-end mt-[10px]">
+                        <Image
+                          classNames={{
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
+                          }}
+                          alt="picture"
+                          src="/images/payout/swiper-3.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                      <div className="w-full flex justify-start mt-[10px]">
+                        <Image
+                          classNames={{
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
+                          }}
+                          alt="picture"
+                          src="/images/payout/swiper-1.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                      <div className="w-full flex justify-end mt-[10px]">
+                        <Image
+                          classNames={{
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[458px]  rounded-none",
+                          }}
+                          alt="picture"
+                          src="/images/payout/swiper-2.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                      <div className="w-full flex justify-start mt-[10px]">
+                        <Image
+                          classNames={{
+                            img: "max-w-[220px]  md:max-h-[116px]  md:max-w-[398px]  rounded-none",
                           }}
                           alt="picture"
                           src="/images/payout/swiper-3.png"
@@ -316,7 +382,7 @@ export default function PayputsPage() {
                       </div>
                     </Marquee>
                     <div className="pointer-events-none absolute inset-x-0 top-0 h-[40px] bg-gradient-to-b from-[#1C2025] to-[#1C202500]"></div>
-                    <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[40px] bg-gradient-to-t from-[#1C2025] to-[#1C202500]"></div>
+                    <div className="pointer-events-none absolute inset-x-0 bottom-[-10px] h-[40px] bg-gradient-to-t from-[#1C2025] to-[#1C202500]"></div>
                   </div>
                 </div>
               </FadeIn>
