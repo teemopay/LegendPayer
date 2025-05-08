@@ -472,3 +472,27 @@ body {
 .a-color-hover:hover {
   color: #009853;
 }
+
+/* animate */
+.fade-scale-initial {
+  opacity: 0;
+  transform: scale(0);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fade-scale-enter {
+  transform-origin: center;
+  animation: scale-animation 3s cubic-bezier(0.16, 1, 0.3, 1) 0.3s infinite;
+}
+@keyframes scale-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

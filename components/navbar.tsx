@@ -10,9 +10,10 @@ export const Navbar = () => {
   const itemClasses = {
     base: "py-0 w-full",
     title: "font-normal text-medium",
-    trigger: "px-0 py-[8px]   flex items-center",
+    trigger: "px-0 py-[8px]   flex items-center bg-[#000]",
     indicator: "text-medium text-[#009853]",
     content: "text-sm",
+    titleWrapper: "bg-[#000]",
   };
   useEffect(() => {
     const wrapper = wrapperRef.current;

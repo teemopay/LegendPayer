@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import * as motion from "motion/react-client";
 import {
   Dropdown,
@@ -7,7 +7,6 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "@heroui/dropdown";
-import { Button } from "@heroui/button";
 import { useRouter } from "next/navigation";
 
 type Props = {
@@ -22,6 +21,18 @@ type Props = {
   gradientTransform?: string;
   country?: string;
 };
+export function useIsAndroid() {
+  const [isAndroid, setIsAndroid] = useState(false);
+
+  useEffect(() => {
+    if (typeof navigator !== "undefined") {
+      setIsAndroid(/Android/i.test(navigator.userAgent));
+    }
+  }, []);
+
+  return isAndroid;
+}
+
 export const CountrySelect = ({ country }: Props) => {
   const [open, setOpen] = useState(false);
   const router = useRouter();
@@ -152,6 +163,9 @@ export const MobileCircularProgress = ({
 }: Props) => {
   const circumference = 2 * Math.PI * r;
   const strokeDashoffset = circumference - (circumference * value) / 100;
+  const motionProps = useIsAndroid()
+    ? { animate: { strokeDashoffset } }
+    : { whileInView: { strokeDashoffset } };
   return (
     <svg
       width={width}
@@ -173,7 +187,9 @@ export const MobileCircularProgress = ({
           <stop offset="100%" stopColor="#014727" stopOpacity="0.8" />
         </linearGradient>
       </defs>
+
       <motion.circle
+        id="mobile-circle"
         cx="50%"
         cy="50%"
         r={r}
@@ -183,13 +199,13 @@ export const MobileCircularProgress = ({
         strokeLinecap="round"
         strokeDasharray={circumference}
         strokeDashoffset={strokeDashoffset}
-        initial={{ strokeDashoffset: circumference }}
         transition={{
           duration: 1,
           ease: [0.4, 0, 0.2, 1],
           delay: 0.3,
         }}
-        whileInView={{ strokeDashoffset }}
+        initial={{ strokeDashoffset: circumference }}
+        {...motionProps}
       />
     </svg>
   );
@@ -227,6 +243,7 @@ export const MinProgress = ({ value = 0, className }: Props) => {
         }}
         whileInView={{ strokeDashoffset }}
       />
+
       <g id="Frame">
         <path
           id="Vector"
@@ -247,6 +264,10 @@ export const MobileMinProgress = ({ value = 0, className }: Props) => {
   const r = 14;
   const circumference = 2 * Math.PI * r;
   const strokeDashoffset = circumference - (circumference * value) / 100;
+  const motionProps = useIsAndroid()
+    ? { animate: { strokeDashoffset } }
+    : { whileInView: { strokeDashoffset } };
+
   return (
     <svg className={`comment-progress ${className}`} width="32px" height="32px">
       <circle
@@ -273,7 +294,7 @@ export const MobileMinProgress = ({ value = 0, className }: Props) => {
           ease: [0.4, 0, 0.2, 1],
           delay: 0.3,
         }}
-        whileInView={{ strokeDashoffset }}
+        {...motionProps}
       />
       <g id="Frame" className="comment-progress">
         <path

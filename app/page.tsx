@@ -355,7 +355,7 @@ export default function Home() {
                 classNames={{
                   tabList:
                     "flex items-center justify-center bg-[#1C2025] px-[14px] py-[9px] rounded-2xl",
-                  tab: "max-w-[148px] h-[26px] rounded-full",
+                  tab: "max-w-[148px] h-[26px] rounded-full bg-[#1C2025]",
                   tabContent: "block w-full text-[#fff] text-[14px] font-bold",
                   cursor: "bg-[#009853] text-[#fff] rounded-full",
                 }}
