@@ -46,7 +46,7 @@ export default function Home() {
               }
             ></PrimaryTitle>
             <SubTitle
-              className="mb-[38px]  md:mb-[46px] md:max-w-[700px]"
+              className="mb-[38px]  md:mb-[46px] md:max-w-[400px] lg:max-w-[500px]  xl:max-w-[700px]"
               align="text-left"
               title={
                 <>
