@@ -22,3 +22,17 @@
 npm run build
 npm start
 ```
+
+### 已明确支持的浏览器
+
+| Chrome                                                              |                              Edge                               |                                                              Safari |
+| :------------------------------------------------------------------ | :-------------------------------------------------------------: | ------------------------------------------------------------------: |
+| ![Chrome](https://www.w3school.com.cn/ui2017/compatible_chrome.png) | ![Edge](https://www.w3school.com.cn/ui2017/compatible_edge.png) | ![Safari](https://www.w3school.com.cn/ui2017/compatible_safari.png) |
+
+### 真机调试
+
+| 机型         |
+| ------------ |
+| **moto g20** |
+| **iphoneX**  |
+| **iphone16** |
