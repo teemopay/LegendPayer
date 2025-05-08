@@ -12,7 +12,6 @@ import { Button } from "@heroui/button";
 import { Select, SelectSection, SelectItem } from "@heroui/select";
 import { Checkbox, CheckboxGroup } from "@heroui/checkbox";
 import { FadeIn } from "@/components/Animateitem";
-import { addToast, ToastProvider } from "@heroui/toast";
 
 const title = "Your Trusted Global Payment Solutions Provider";
 const sub =
