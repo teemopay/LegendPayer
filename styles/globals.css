@@ -376,7 +376,7 @@ body {
   display: none;
 }
 
-.sweep-away::after {
+/* .sweep-away::after {
   content: "";
   position: absolute;
   inset: -20%;
@@ -389,7 +389,7 @@ body {
   animation: shark-wrap 5s infinite;
   transform: translateX(-100%);
   pointer-events: none;
-}
+} */
 @keyframes shark-wrap {
   to {
     transform: translateX(100%);
@@ -524,4 +524,13 @@ body {
   will-change: transform, opacity;
   transition: opacity 0.3s;
   pointer-events: none;
+}
+
+.wave-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
 }

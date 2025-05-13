@@ -1,5 +1,6 @@
 "use client";
 import { FadeIn } from "@/components/Animateitem";
+import WaveThree from "./Three/WaveThree";
 
 type Props = {
   title?: string | React.ReactNode;
@@ -270,7 +271,7 @@ export const FortyEightTitle = ({
 export const BgText = ({ title, sub, className }: Props) => {
   return (
     <div
-      className={`relative overflow-hidden  sweep-away bg-text  w-full px-[20px] md:px-[60px] pt-[39px] md:pt-[71px]  pb-[37px] md:pb-[81px] ${className}`}
+      className={`relative overflow-hidden  sweep-away bg-text  w-full px-[20px] md:px-[60px] pt-[39px] md:pt-[71px]  pb-[37px] md:pb-[81px] ${className} z-[3]`}
     >
       <div className="mb-[22px] mb-[24px]">
         <FadeIn>
@@ -280,6 +281,7 @@ export const BgText = ({ title, sub, className }: Props) => {
       <FadeIn>
         <SubTitle title={sub} />
       </FadeIn>
+      <WaveThree></WaveThree>
     </div>
   );
 };
