@@ -496,3 +496,32 @@ body {
     opacity: 1;
   }
 }
+
+#container {
+  position: relative;
+  width: 610px;
+  height: 610px;
+  background-color: pink;
+}
+.cont {
+  position: relative;
+}
+.label-title {
+  background: #fff;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  color: #000;
+}
+.label-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.global_position-box {
+  will-change: transform, opacity;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
