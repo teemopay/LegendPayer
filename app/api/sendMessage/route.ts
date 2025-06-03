@@ -94,11 +94,7 @@ export async function POST(request: Request) {
       [
         {
           tag: "at",
-          user_id: "55b445bc",
-        },
-        {
-          tag: "at",
-          user_id: "5g9a429e",
+          user_id: "6g1d9371",
         },
       ],
     ];
