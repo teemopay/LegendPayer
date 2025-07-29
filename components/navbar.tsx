@@ -71,6 +71,14 @@ export const Navbar = () => {
               <NextLink className="navbar-link" href="#">
                 Company
               </NextLink>
+
+              <NextLink
+                className="navbar-link"
+                href="https://docs.teemopay.com/en"
+                target="_blank"
+              >
+                Developers
+              </NextLink>
               <NextLink
                 className="navbar-link-btn"
                 href={{
@@ -224,6 +232,13 @@ export const Navbar = () => {
               </AccordionItem>
             ))}
           </Accordion>
+          <NextLink
+            className="block text-sm leading-[16px] py-[8px] px-2 text-[#009853]"
+            href="https://docs.teemopay.com/en"
+            target="_blank"
+          >
+            Developers
+          </NextLink>
         </div>
       </div>
     </div>
