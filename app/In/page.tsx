@@ -32,7 +32,7 @@ export default function InPage() {
                 <PrimaryTitle
                   align="text-left"
                   title="Shape the future of commerce with LegendPay."
-                  className="md:text-[22px] md:leading-[30px]  lg:text-6xl lg:leading-[4.25rem] "
+                  className=" lg:!text-6xl lg:!leading-[4.25rem] md:!text-[22px]  md:!leading-[30px]"
                 />
               </div>
               <MediumTitle
@@ -58,7 +58,7 @@ export default function InPage() {
             <div className="flex-1 md:min-w-[340px] lg:min-w-[500px]   md:pl-[48px]">
               <div className="md:max-w-[711px] mb-[15px] md:mb-[40px]">
                 <PrimaryTitle
-                  className="md:text-[22px] md:leading-[30px]  lg:text-6xl lg:leading-[4.25rem] "
+                  className="md:!text-[22px] md:!leading-[32px]  lg:!text-6xl lg:!leading-[4.25rem] "
                   align="text-left"
                   title="Employee wellness drives everything we do."
                 />
