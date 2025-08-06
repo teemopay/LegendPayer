@@ -178,6 +178,12 @@ export const MobileNavbarList = [
         id: 33,
         target: "_self",
       },
+      {
+        title: "Privacy Policy",
+        href: "/support/Legendpay_Privacy_Policy.pdf",
+        id: 34,
+        target: "_blank",
+      },
     ],
   },
   {
