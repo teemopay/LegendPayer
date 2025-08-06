@@ -47,11 +47,11 @@ export const CardCountry = () => {
         {CardCountryConfig.map((i) => (
           <Card
             key={i.id}
-            className="figure w-[279px] min-w-[279px] md:h-[335px] relative cursor-pointer rounded-2xl"
+            className="figure w-[279px] min-w-[279px] md:h-[335px] relative cursor-pointer rounded-2xl shadow-none"
           >
             <Image
               removeWrapper
-              alt="Card background"
+              alt="Card"
               className="figure-img z-0 w-full h-full object-cover"
               classNames={{
                 img: "w-[279px] h-[335px]",

@@ -216,18 +216,18 @@ export const MobileNavbarList = [
 export const AppsList = [
   {
     id: 1,
-    href: "https://x.com/LegendPay",
-    target: "_blank",
+    href: "/About",
+    target: "_self",
   },
   {
     id: 3,
-    href: "https://www.linkedin.com/company/teemo-pay",
-    target: "_blank",
+    href: "/About",
+    target: "_self",
   },
   {
     id: 4,
-    href: "https://www.instagram.com/LegendPay_mkt/",
-    target: "_blank",
+    href: "/About",
+    target: "_self",
   },
   {
     id: 5,

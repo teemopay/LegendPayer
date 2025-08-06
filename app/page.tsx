@@ -13,8 +13,7 @@ import { BtnLink } from "@/components/BtnLink";
 import { CardStep } from "@/components/CardStep";
 import { PageWrap } from "@/components/PageWrap";
 import { Button } from "@heroui/button";
-import { HomeArrow, StepIcon } from "@/components/icons";
-import { Tabs, Tab } from "@heroui/tabs";
+import { HomeArrow } from "@/components/icons";
 import { FadeIn, FadeText } from "@/components/Animateitem";
 import NextLink from "next/link";
 
