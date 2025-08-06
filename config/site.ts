@@ -172,12 +172,6 @@ export const MobileNavbarList = [
         id: 31,
         target: "_self",
       },
-      // {
-      //   title: "Blog",
-      //   href: "/Blog",
-      //   id: 32,
-      //   target: "_self",
-      // },
       {
         title: "About us",
         href: "/About",
@@ -186,7 +180,7 @@ export const MobileNavbarList = [
       },
       {
         title: "Privacy Policy",
-        href: "/support/PRIVACIDAD-Teemopay.pdf",
+        href: "/support/PRIVACIDAD-LegendPay.pdf",
         id: 34,
         target: "_blank",
       },
@@ -194,7 +188,7 @@ export const MobileNavbarList = [
   },
   {
     title: "Resources",
-    label: "Markets",
+    label: "Resources",
     id: 2,
     child: [
       {
@@ -228,7 +222,7 @@ export const MobileNavbarList = [
 export const AppsList = [
   {
     id: 1,
-    href: "https://x.com/teemopay",
+    href: "https://x.com/LegendPay",
     target: "_blank",
   },
   {
@@ -238,12 +232,12 @@ export const AppsList = [
   },
   {
     id: 4,
-    href: "https://www.instagram.com/teemopay_mkt/",
+    href: "https://www.instagram.com/LegendPay_mkt/",
     target: "_blank",
   },
   {
     id: 5,
-    href: "mailto:danae@teemopay.com",
+    href: "mailto:service@legend-pay.com",
     target: "_blank",
   },
 ];

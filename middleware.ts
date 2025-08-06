@@ -16,7 +16,7 @@ const validPaths = [
   "/Accounting",
   "/In",
   "/Blog",
-  "/support/PRIVACIDAD-Teemopay.pdf",
+  "/support/PRIVACIDAD-LegendPay.pdf",
 ];
 
 // 拦截规则（支持多路径）

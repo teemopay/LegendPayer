@@ -18,11 +18,11 @@ export default function DesignPage() {
   const [open, setOpen] = useState(true);
   const jobObj = JobsObj["Designer"];
   return (
-    <div className="bg-[#000000]">
+    <div>
       <div className="join-bg w-full max-h-[169px]  md:max-h-[554px] h-[554px] mb-[29px] md:mb-[127px]">
         <PageWrap>
           <PrimaryTitle
-            className="hidden md:block md:pt-[150px]"
+            className="hidden md:block md:pt-[150px] text-[#fff]"
             align="text-left"
             title={
               <>
@@ -114,7 +114,7 @@ export default function DesignPage() {
               className="flex justify-between cursor-pointer"
               onClick={() => setOpen(!open)}
             >
-              <div className="font-semibold text-[12px] leading-[20px] md:text-[22px] md:leading-[50px]">
+              <div className="font-semibold text-[#000000]  text-[12px] leading-[20px] md:text-[22px] md:leading-[50px]">
                 Other positions
               </div>
               <svg
@@ -156,7 +156,7 @@ export default function DesignPage() {
           <NextLink className="block" href="/About">
             <Button
               radius="full"
-              className="border-[1px] w-full md:w-[240px] border-[#009853] bg-[#000000] text-[14px] md:text-[20px] text-[#009853]"
+              className="border-[1px] w-full md:w-[240px] border-[#06421D] bg-[#fff] text-[14px] md:text-[20px] text-[#06421D]"
               variant="bordered"
             >
               See more about us

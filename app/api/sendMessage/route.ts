@@ -88,7 +88,7 @@ export async function POST(request: Request) {
       [
         {
           tag: "text",
-          text: `How can Teemopay help your business? Feel free to ask anything: 【${help}】`,
+          text: `How can LegendPay help your business? Feel free to ask anything: 【${help}】`,
         },
       ],
       [

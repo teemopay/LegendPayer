@@ -38,7 +38,7 @@ const StartList = [
   {
     id: 5,
     title: "5. Start converting",
-    sub: "Run your business locally or globally using the payment methods supported by Teemopay.",
+    sub: "Run your business locally or globally using the payment methods supported by LegendPay.",
     icon: StepFive,
   },
 ];
@@ -88,13 +88,13 @@ export const CardStep = () => {
             return (
               <Card
                 key={i.id}
-                className="card-step w-[191px] min-w-[191px] h-[254px] md:w-[348px] md:min-w-[348px] md:h-[461px]  relative cursor-pointer rounded-2xl"
+                className="shadow-none card-step w-[191px] min-w-[191px] h-[254px] md:w-[348px] md:min-w-[348px] md:h-[461px]  relative cursor-pointer rounded-2xl bg-[#E4F3EC]"
               >
                 <CardBody className="overflow-visible p-[19px] md:p-[35px] relative">
-                  <div className="font-bold text-[13px] md:text-xl text-white mb-[4px] leading-[23px]">
+                  <div className="font-bold text-[13px] md:text-xl text-[#000000] mb-[4px] leading-[23px]">
                     {i.title}
                   </div>
-                  <div className="text-xs md:text-sm text-white  leading-[16px] md:h-[97px] h-[97px] md:mb-[63px]">
+                  <div className="text-xs md:text-sm text-[#000000]  leading-[16px] md:h-[97px] h-[97px] md:mb-[63px]">
                     {i.sub}
                   </div>
                   <div className="w-full flex items-center justify-center">

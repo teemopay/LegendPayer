@@ -43,15 +43,15 @@ export const CardOne = () => {
         return (
           <FadeIn key={i.id}>
             <div
-              className="flex justify-between min-h-[140px] md:min-h-[414px] pt-[17px] md:pt-[77px] pr-[19px] md:pr-[113px] pb-[20px] md:pb-[67px] pl-[12px] md:pl-[53px] bg-[#1C2025] rounded-2xl mb-[20px] md:mb-[23px]"
+              className="flex justify-between min-h-[140px] md:min-h-[414px] pt-[17px] md:pt-[77px] pr-[19px] md:pr-[113px] pb-[20px] md:pb-[67px] pl-[12px] md:pl-[53px] bg-[#E4F3EC] rounded-2xl mb-[20px] md:mb-[23px]"
               key={i.id}
             >
               <div className="flex-1 max-w-[236px] md:max-w-[757px]">
                 <PayinNine className="max-w-[16px] max-h-[16px]  md:max-w-[76px] md:max-h-[76px] mb-[12px] md:mb-[39px]" />
-                <div className="font-medium  text-[20px] leading-[11px] md:text-[48px] md:leading-[36px]  text-white mb-[11px] md:mb-[22px]">
+                <div className="font-medium  text-[20px] leading-[11px] md:text-[48px] md:leading-[36px]  text-[#000] mb-[11px] md:mb-[22px]">
                   {i.title}
                 </div>
-                <div className="text-[12px] leading-[12px] md:text-[20px] md:leading-[36px]  text-white">
+                <div className="text-[12px] leading-[12px] md:text-[20px] md:leading-[36px]  text-[#000]">
                   {i.sub}
                 </div>
               </div>

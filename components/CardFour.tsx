@@ -24,7 +24,7 @@ const cardList = [
   {
     id: 3,
     title: "Local and international payments",
-    sub: "Teemopay payment solution is a simple, secure and fast method suitable for all business models.",
+    sub: "LegendPay payment solution is a simple, secure and fast method suitable for all business models.",
     icon: PayinThree,
   },
   {
@@ -43,7 +43,7 @@ export const CardFour = () => {
           <FadeIn key={i.id}>
             <div
               className="flex-col
-     bg-[#1C2025] rounded-2xl pt-[15px] pr-[15px] pb-[14px] pl-[12px] md:pt-[33px] md:pr-[34px] md:pb-[55px] md:pl-[26px] md:min-h-[411px] min-h-[185px] h-full"
+     bg-[#06421D] rounded-2xl pt-[15px] pr-[15px] pb-[14px] pl-[12px] md:pt-[33px] md:pr-[34px] md:pb-[55px] md:pl-[26px] md:min-h-[411px] min-h-[185px] h-full"
               key={i.id}
             >
               <div className="flex mb-[35px] md:mb-[59px] justify-between items-start">

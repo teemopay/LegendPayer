@@ -17,7 +17,7 @@ export const PageWrap = ({ children }: { children: React.ReactNode }) => {
 export const CountryButton = ({ title, className }: Props) => {
   return (
     <Button
-      className={`w-[100px] md:w-[130px] h-[27px] md:h-[36px] bg-[#009853] font-medium text-[12px] md:text-[18px ${className}`}
+      className={`w-[100px] md:w-[130px] h-[27px] md:h-[36px] bg-[#06421D] font-medium text-[12px] md:text-[18px ${className}`}
       radius="full"
     >
       {title}

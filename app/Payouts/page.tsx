@@ -31,20 +31,20 @@ export default function PayputsPage() {
             <FadeText>
               <PrimaryTitle
                 align="text-left"
-                className="md:max-w-[500px] mb-[20px] md:mb-[46px] break-keep "
+                className="md:max-w-[500px] mb-[20px] md:mb-[46px] break-keep text-[#fff]"
                 title="Speedy and cost-effective global payouts"
               ></PrimaryTitle>
             </FadeText>
             <FadeText>
               <SubTitle
-                className="mb-[38px]  md:mb-[46px] md:max-w-[500px]"
+                className="mb-[38px]  md:mb-[46px] md:max-w-[500px] text-[#fff]"
                 align="text-left"
                 title="Send payouts to the local accounts of your customers and partners quickly"
               />
             </FadeText>
             <FadeText>
               <Button
-                className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
+                className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#06421D] text-[12px] md:text-[20px]"
                 radius="full"
               >
                 Get started
@@ -127,7 +127,7 @@ export default function PayputsPage() {
                       }
                     />
                     <MediumTitle
-                      className="text-center md:text-left md:text-[16px] "
+                      className="text-center md:text-left md:text-[16px] !text-[#3A3A3A] "
                       title="By supporting 130+ currencies, 180+ countries and regions, both SWIFT and multiple local clearing networks, our payout services facilitate the rapid global distribution of your funds, including to China."
                     />
                   </div>
@@ -151,7 +151,7 @@ export default function PayputsPage() {
                       title="Flexible Payout Methods"
                     />
                     <MediumTitle
-                      className="text-center md:text-left "
+                      className="text-center md:text-left !text-[#3A3A3A]"
                       title="Adapt to the needs of your global recipients with versatile payout methods and time-scales to move at the pace of modern business."
                     />
                   </div>
@@ -176,7 +176,7 @@ export default function PayputsPage() {
                       title="Transparent and competitive fees"
                     />
                     <MediumTitle
-                      className="text-center md:text-left "
+                      className="text-center md:text-left !text-[#3A3A3A]"
                       title="We provide competitive fees, transparent exchange rates, and a range of FX services designed to help you reduce exchange costs, thereby lowering your overall payment expenses."
                     />
                   </div>
@@ -201,7 +201,7 @@ export default function PayputsPage() {
                       title="Efficient Payout Automation"
                     />
                     <MediumTitle
-                      className="text-center md:text-left "
+                      className="text-center md:text-left !text-[#3A3A3A]"
                       title="Eliminate manual tasks and reallocate resources with end-to-end automation and granular controls."
                     />
                   </div>
@@ -225,7 +225,7 @@ export default function PayputsPage() {
                 />
               </FadeIn>
               <FadeIn>
-                <div className="w-full lg:flex  md:items-center xl:items-start  bg-[#1C2025]  px-[12px] pt-[26px] pb-[16px] md:px-[61px] md:pt-[61px] md:pb-[72px] rounded-2xl mb-[20px] md:mb-[40px]">
+                <div className="w-full lg:flex  md:items-center xl:items-start  bg-[#06421D]  px-[12px] pt-[26px] pb-[16px] md:px-[61px] md:pt-[61px] md:pb-[72px] rounded-2xl mb-[20px] md:mb-[40px]">
                   <div className="flex-1 md:pr-[20px] mb-[22px] md:mb-[40px] lg:mb-0">
                     <MediumFiftyTitle
                       className="md:max-w-[742px] mb-[20px] md:mb-[30px] text-left"
@@ -234,7 +234,7 @@ export default function PayputsPage() {
                     <div className="text-[14px] leading-[16px] text-[#009853]  md:text-[32px] md:leading-[38px] mb-[22px] md:mb-[25px]">
                       24/7 Manual Service & Dedicated Support
                     </div>
-                    <div className="text-[12px] leading-[14px] md:text-[20px] md:leading-[23px] text-[#D1D1D1] mb-[22px] lg:mb-0 max-w-[742px] lg:pr-[122px]">
+                    <div className="text-[12px] leading-[14px] md:text-[20px] md:leading-[23px] text-[#3A3A3A] mb-[22px] lg:mb-0 max-w-[742px] lg:pr-[122px]">
                       Our professional team provides round-the-clock assistance
                       for exchange transactions. Beyond technical support, we
                       offer personalized guidance to ensure seamless and
@@ -381,15 +381,15 @@ export default function PayputsPage() {
                         />
                       </div>
                     </Marquee>
-                    <div className="pointer-events-none absolute inset-x-0 top-0 h-[40px] bg-gradient-to-b from-[#1C2025] to-[#1C202500]"></div>
-                    <div className="pointer-events-none absolute inset-x-0 bottom-[-10px] h-[40px] bg-gradient-to-t from-[#1C2025] to-[#1C202500]"></div>
+                    <div className="pointer-events-none absolute inset-x-0 top-0 h-[40px] bg-gradient-to-b from-[#06421D] to-[#06421D00]"></div>
+                    <div className="pointer-events-none absolute inset-x-0 bottom-[-10px] h-[40px] bg-gradient-to-t from-[#06421D] to-[#06421D00]"></div>
                   </div>
                 </div>
               </FadeIn>
               <FadeIn>
                 <div className="md:flex  md:gap-[41px] gap-[20px]">
                   <div className="md:max-w-[622px] md:max-h-[761px]">
-                    <div className="md:min-h-[349px] md:max-h-[349px]  md:mb-[41px]  bg-[#1C2025] rounded-2xl px-[12px] lg:px-[61px] pt-[26px] lg:pt-[61px] pb-[20px] lg:pb-[69px] mb-[20px]">
+                    <div className="md:min-h-[349px] md:max-h-[349px]  md:mb-[41px]  bg-[#06421D] rounded-2xl px-[12px] lg:px-[61px] pt-[26px] lg:pt-[61px] pb-[20px] lg:pb-[69px] mb-[20px]">
                       <div className="font-medium text-[20px] md:text-[35px] md:leading-[36px]  lg:text-[34px] lg:leading-[43px]  xl:text-[60px] leading-[24px] xl:leading-[70px] mb-[1px] md:mb-[58px]">
                         Faster Payouts, Lower Costs
                       </div>
@@ -408,12 +408,12 @@ export default function PayputsPage() {
                       isZoomed
                     />
                   </div>
-                  <div className="flex flex-col justify-between max-w-[837px] pt-[26px] lg:pt-[61px]  px-[12px] lg:px-[60px] pb-[16px] lg:pb-[49px] bg-[#1C2025] rounded-2xl md:max-h-[761px] mt-[20px] md:mt-0">
+                  <div className="flex flex-col justify-between max-w-[837px] pt-[26px] lg:pt-[61px]  px-[12px] lg:px-[60px] pb-[16px] lg:pb-[49px] bg-[#06421D] rounded-2xl md:max-h-[761px] mt-[20px] md:mt-0">
                     <div>
                       <LarageTitle
                         title="Transparent and competitive fees"
                         align="text-left"
-                        className="mb-[10px] md:mb-[20px]"
+                        className="mb-[10px] md:mb-[20px] text-[#fff]"
                       />
                       <MediumTitle
                         align="text-left"
@@ -423,7 +423,7 @@ export default function PayputsPage() {
                     </div>
                     <Image
                       classNames={{
-                        img: "w-full min-w-[305px] md:min-w-[305px] md:min-h-[164px]  lg:max-w-[696px] lg:max-h-[364px]  rounded-none",
+                        img: "w-full  max-w-[723px] md:min-w-[305px] md:min-h-[164px]  lg:max-w-[696px] lg:max-h-[364px]  rounded-none",
                       }}
                       alt="country"
                       height="100%"

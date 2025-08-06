@@ -8,13 +8,13 @@ import { FadeIn, FadeText } from "@/components/Animateitem";
 
 export default function InPage() {
   return (
-    <div className="bg-[#000]">
+    <div className="bg-[#fff]">
       <div className="country-head-bg  min-h-[596px] md:min-h-[660px] md:mb-[149px] mb-[68px] md:pt-[240px] pt-[30px]   bg-[url('/images/join/3.png')]">
         <PageWrap>
           <FadeText>
-            <PrimaryTitle align="text-left" title="Your career." />
+            <PrimaryTitle align="text-left text-[#fff]" title="Your career." />
             <PrimaryTitle
-              align="text-left"
+              align="text-left text-[#fff]"
               title="You  might be the perfect. "
             />
             <div className="text-[12px] leading-[18px] mt-[25px] md:text-[20px] md:leading-[36px] md:mt-[36px] max-w-[555px]">
@@ -31,12 +31,12 @@ export default function InPage() {
               <div className="md:max-w-[714px] mb-[15px] md:mb-[40px] ">
                 <PrimaryTitle
                   align="text-left"
-                  title="Shape the future of commerce with Teemopay."
+                  title="Shape the future of commerce with LegendPay."
                   className="md:text-[22px] md:leading-[30px]  lg:text-6xl lg:leading-[4.25rem] "
                 />
               </div>
               <MediumTitle
-                className="max-w-[671px] mb-[38px] md:mb-0 md:text-[18px] lg:text-xl "
+                className="max-w-[671px] mb-[38px] md:mb-0 md:text-[18px] lg:text-xl  !text-[#3A3A3A]"
                 align="text-left"
                 title="We believe groundbreaking innovation starts with exceptional people. That’s why we provide personalized benefits supporting every life stage, empowering you to thrive at work and beyond. Ready to leave your mark? Join us in redefining what’s possible."
               />
@@ -64,7 +64,7 @@ export default function InPage() {
                 />
               </div>
               <MediumTitle
-                className="max-w-[668px] mb-[38px] md:mb-0 md:text-[18px] lg:text-xl "
+                className="max-w-[668px] mb-[38px] md:mb-0 md:text-[18px] lg:text-xl !text-[#3A3A3A]"
                 align="text-left"
                 title="We invest in your holistic well-being with benefits and resources designed to help you thrive."
               />
@@ -86,7 +86,7 @@ export default function InPage() {
           className="mb-[20px] md:mb-[55px]"
           title={
             <>
-              <span className="text-[#009853]"> Careers/</span>
+              <span className="text-[#06421D]"> Careers/</span>
               Job category
             </>
           }
@@ -97,17 +97,17 @@ export default function InPage() {
             {WorkData.map((i) => (
               <div
                 key={i.id}
-                className="flex flex-col justify-between bg-[#1C2025] rounded-2xl px-[12px] md:px-[24px] pt-[17px] pb-[27px] md:pt-[33px] pb-[30px]"
+                className="flex flex-col justify-between bg-[#E4F3EC] rounded-2xl px-[12px] md:px-[24px] pt-[17px] pb-[27px] md:pt-[33px] pb-[30px]"
               >
                 <div>
-                  <div className="font-medium text-white text-[15px] leading-[20px] md:text-[32px] md:leading-[50px] mb-[9px] md:mb-[27px]">
+                  <div className="font-medium text-[#000000] text-[15px] leading-[20px] md:text-[32px] md:leading-[50px] mb-[9px] md:mb-[27px]">
                     {i.title}
                   </div>
                   <div className="flex items-center flex-wrap mb-[7px] md:mb-[32px]">
                     {i.tags.map((t) => (
                       <div
                         key={t.id}
-                        className="line-clamp-1 mb-[8px]  bg-[#009853] text-[#fff] md:px-[16px] px-[12px] py-[5px]  md:py-[10px] md:py-[4px] rounded-full text-[12px] leading-[12px] md:text-[14px] md:leading-[16px]  mr-[15px]"
+                        className="line-clamp-1 mb-[8px]  bg-[#06421D] text-[#fff] md:px-[16px] px-[12px] py-[5px]  md:py-[10px] md:py-[4px] rounded-full text-[12px] leading-[12px] md:text-[14px] md:leading-[16px]  mr-[15px]"
                       >
                         {t.title}
                       </div>
@@ -115,7 +115,7 @@ export default function InPage() {
                   </div>
                   {i.id !== 4 && (
                     <MediumTitle
-                      className="line-clamp-3 mb-[24px] md:mb-[26px]"
+                      className="line-clamp-3 mb-[24px] md:mb-[26px] !text-[#3C3C3C]"
                       align="text-left"
                       title={i.cnt}
                     />
@@ -123,12 +123,12 @@ export default function InPage() {
                   {i.id === 4 && (
                     <div className="mb-[24px] md:mb-[26px]">
                       <MediumTitle
-                        className="line-clamp-3 "
+                        className="line-clamp-3 !text-[#3C3C3C]"
                         align="text-left"
                         title={i.cnt}
                       />
                       <MediumTitle
-                        className="line-clamp-3 "
+                        className="line-clamp-3 !text-[#3C3C3C]"
                         align="text-left"
                         title={i.sub}
                       />
@@ -141,7 +141,7 @@ export default function InPage() {
                   key={i.id}
                 >
                   <MediumTitle
-                    textColor="text-[#009853]"
+                    textColor="text-[#06421D] "
                     align="text-left"
                     title="View more"
                     className="mr-[4px] md:mr-[10px]"
@@ -179,14 +179,14 @@ export default function InPage() {
                           <path
                             id="Vector 85"
                             d="M4.19629 13.5977H21.9649"
-                            stroke="#009853"
+                            stroke="#06421D"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                           />
                           <path
                             id="Rectangle 589"
                             d="M13.5039 4.38477L22.7401 13.6209C22.7791 13.66 22.7791 13.7233 22.7401 13.7623L13.5039 22.9985"
-                            stroke="#009853"
+                            stroke="#06421D"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                           />
@@ -202,8 +202,10 @@ export default function InPage() {
 
         <FadeIn>
           <div className="country-head-bg md:pt-[46px] md:pl-[44px]  md:max-w-[1500px] md:h-[469px] md:bg-[url('/images/join/2.png')] md:rounded-[20px]">
-            <div className="font-semibold text-[32px] leading-[37px] md:text-[64px] md:leading-[68px] text-white md:mb-[72px]  mb-[40px]">
-              <FadeText>Join now and enjoy</FadeText>
+            <div className=" font-semibold text-[32px] leading-[37px] md:text-[64px] md:leading-[68px] text-white md:mb-[72px]  mb-[40px]">
+              <FadeText className="text-[#000000] md:text-[#fff]">
+                Join now and enjoy
+              </FadeText>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
               {JoinData.map((i) => (
@@ -225,7 +227,7 @@ export default function InPage() {
                         cx="16.2879"
                         cy="16.2879"
                         r="16.2879"
-                        fill="#009853"
+                        fill="#06421D"
                       />
                       <g id="Frame">
                         <path
@@ -239,7 +241,7 @@ export default function InPage() {
                       </g>
                     </g>
                   </svg>
-                  <div className="tracking-[-1px] flex-1 px-[20px] md:max-w-[228px] text-[12px]  md:text-[16px] leading-[21px]">
+                  <div className=" text-[#000000] md:text-[#fff] tracking-[-1px] flex-1 px-[20px] md:max-w-[228px] text-[12px]  md:text-[16px] leading-[21px]">
                     {i.title}
                   </div>
                 </div>

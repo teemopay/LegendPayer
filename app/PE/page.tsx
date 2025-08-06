@@ -32,7 +32,7 @@ export default function PEPage() {
               <PrimaryTitle
                 title={
                   <>
-                    <TypingAnimation className="min-h-[37px] md:min-h-[68px] font-semibold w-full text-[32px] leading-[37px]  md:text-6xl md:leading-[4.25rem]">
+                    <TypingAnimation className="text-[#000]  min-h-[37px] md:min-h-[68px] font-semibold w-full text-[32px] leading-[37px]  md:text-6xl md:leading-[4.25rem]">
                       {currentObj.title}
                     </TypingAnimation>
                   </>

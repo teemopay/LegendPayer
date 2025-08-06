@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --color--009853: #009853;
+  --color--009853: #06421d;
   --color--1C2025: #1c2025;
   --color--000000: #000000;
 }
@@ -31,7 +31,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  background: #000000 !important;
+  background: #fff !important;
 }
 
 @layer base {
@@ -112,7 +112,12 @@ body {
     z-index: 1;
     width: 89px;
     height: 100%;
-    background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(
+      270deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.49) 65%,
+      rgba(255, 255, 255, 0.13) 97%
+    );
   }
 }
 .step-scroll-mask::after {
@@ -123,7 +128,12 @@ body {
   z-index: 1;
   width: 89px;
   height: 100%;
-  background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.49) 65%,
+    rgba(255, 255, 255, 0.13) 97%
+  );
 }
 
 /* 导航栏样式 */
@@ -175,7 +185,7 @@ body {
   width: 100%;
   padding: 39px;
   left: 0;
-  background: var(--color--000000);
+  background: #fff;
   cursor: pointer;
   opacity: 0;
   transform-origin: top;
@@ -202,12 +212,12 @@ body {
 .navbar-child-title {
   font-weight: 500;
   font-size: 18px;
-  color: #5e5e5e;
+  color: #c3c3c3;
   padding-right: 121px;
 }
 .navbar-child-item {
   font-size: 18px;
-  color: #ffffff;
+  color: #000;
 }
 
 .line {
@@ -255,7 +265,7 @@ body {
 
 .mobile-menu-title {
   font-size: 14px;
-  color: #009853;
+  color: #06421d;
   line-height: 16px;
 }
 
@@ -279,11 +289,11 @@ body {
 }
 
 .bg-text {
-  background: linear-gradient(90deg, #035265 0%, #009853 100%);
+  background: linear-gradient(90deg, #06421d 0%, #009853 100%);
 }
 
 .country-bg {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.92);
 }
 
 .country-head-bg {
@@ -338,8 +348,8 @@ body {
 }
 .custome-menu-item:hover,
 .custome-menu-item-active {
-  background-color: #9dd9ba !important;
-  color: #000000 !important;
+  background-color: #06421d !important;
+  color: #fff !important;
 }
 
 .custome-menu-item:first-child {

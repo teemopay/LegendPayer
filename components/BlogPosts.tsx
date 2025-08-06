@@ -55,7 +55,7 @@ export const BlogPosts = () => {
                   <div className="text-base text-[#97989F] pl-[12px] pr-[20px]">
                     Mila
                   </div>
-                  <div className="text-base font-medium text-[#009853]">
+                  <div className="text-base font-medium text-[#06421D]">
                     March 25, 2025
                   </div>
                 </div>

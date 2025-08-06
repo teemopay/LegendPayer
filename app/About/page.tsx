@@ -15,7 +15,7 @@ import { FadeIn } from "@/components/Animateitem";
 
 const title = "Your Trusted Global Payment Solutions Provider";
 const sub =
-  "Teemopay has been a prominent player in the payment gateway industry . As a leading global payment processing service and solutions provider, we specialize in facilitating secure and efficient transactions for a diverse range of clients. From small family-owned businesses to large corporations and established conglomerates, we offer tailored payment solutions to meet their specific needs.";
+  "LegendPay has been a prominent player in the payment gateway industry . As a leading global payment processing service and solutions provider, we specialize in facilitating secure and efficient transactions for a diverse range of clients. From small family-owned businesses to large corporations and established conglomerates, we offer tailored payment solutions to meet their specific needs.";
 const VolumeData = [
   { key: "USD(0-500K)", label: "USD 0-500K" },
   { key: "USD(501K-1M)", label: "USD 501K-1M" },
@@ -149,9 +149,9 @@ export default function AboutPage() {
                   className="!mt-0 mb-[66px] md:mb-[89px]"
                   classNames={{
                     label:
-                      "after:text-[#fff] text-[12px] md:text-[18px] !translate-y-[-52px]  md:!translate-y-[-70px]",
+                      "after:text-[#000] text-[12px] md:text-[18px] !translate-y-[-52px]  md:!translate-y-[-70px] !text-[#000]",
                     inputWrapper:
-                      "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#1C2025]",
+                      "border-[#E9E9E9] border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#F1F7F4]",
                     mainWrapper: "relative",
                     helperWrapper: "absolute top-full w-full",
                     errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -169,9 +169,9 @@ export default function AboutPage() {
                   className="!mt-0 mb-[66px] md:mb-[89px]"
                   classNames={{
                     label:
-                      "after:text-[#fff] text-[12px] md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]",
+                      "after:text-[#000]  text-[12px] md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px] !text-[#000]",
                     inputWrapper:
-                      "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#1C2025]",
+                      "border-[#E9E9E9]  border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#F1F7F4]",
                     mainWrapper: "relative",
                     helperWrapper: "absolute top-full w-full",
                     errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -191,9 +191,9 @@ export default function AboutPage() {
                   className="!mt-0 mb-[66px] md:mb-[89px]"
                   classNames={{
                     label:
-                      "after:text-[#fff] text-[12px] md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]",
+                      "after:text-[#000] text-[12px] md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]  !text-[#000]",
                     inputWrapper:
-                      "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#1C2025]",
+                      "border-[#E9E9E9] border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#F1F7F4]",
                     mainWrapper: "relative",
                     helperWrapper: "absolute top-full w-full",
                     errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -211,9 +211,9 @@ export default function AboutPage() {
                   className="!mt-0 mb-[66px] md:mb-[89px]"
                   classNames={{
                     label:
-                      "after:text-[#fff] text-[12px] md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]",
+                      "after:text-[#000] text-[12px] md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]  !text-[#000]",
                     inputWrapper:
-                      "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#1C2025]",
+                      "border-[#E9E9E9] border-[1px] h-[42px] md:h-[60px]  rounded-[8px] bg-[#F1F7F4]",
                     mainWrapper: "relative",
                     helperWrapper: "absolute top-full w-full",
                     errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -235,9 +235,9 @@ export default function AboutPage() {
                   className="!mt-0 mb-[66px] md:mb-[89px]"
                   classNames={{
                     label:
-                      "after:text-[#fff] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]",
+                      "after:text-[#000] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px] !text-[#000]",
                     trigger:
-                      "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#1C2025]",
+                      "border-[#E9E9E9] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#F1F7F4]",
                     mainWrapper: "relative",
                     helperWrapper: "absolute top-full w-full",
                     errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -253,10 +253,10 @@ export default function AboutPage() {
                       base: [
                         "rounded-sm",
                         "text-[16px]",
-                        "data-[hover=true]:text-[#009853]",
+                        "data-[hover=true]:text-[#06421D]",
                         "data-[hover=true]:bg-default-100",
-                        "dark:data-[hover=true]:bg-[#009853]",
-                        "data-[selectable=true]:focus:bg-[#009853]",
+                        "dark:data-[hover=true]:bg-[#06421D]",
+                        "data-[selectable=true]:focus:bg-[#06421D]",
                         "data-[pressed=true]:opacity-1",
                       ],
                     },
@@ -270,9 +270,9 @@ export default function AboutPage() {
                   className="!mt-0 mb-[66px] md:mb-[89px]"
                   classNames={{
                     label:
-                      "after:text-[#fff] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]",
+                      "after:text-[#000] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]  !text-[#000]",
                     trigger:
-                      "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#1C2025]",
+                      "border-[#E9E9E9] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#F1F7F4]",
                     mainWrapper: "relative",
                     helperWrapper: "absolute top-full w-full",
                     errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -289,10 +289,10 @@ export default function AboutPage() {
                       base: [
                         "rounded-sm",
                         "text-[16px]",
-                        "data-[hover=true]:text-[#009853]",
+                        "data-[hover=true]:text-[#06421D]",
                         "data-[hover=true]:bg-default-100",
-                        "dark:data-[hover=true]:bg-[#009853]",
-                        "data-[selectable=true]:focus:bg-[#009853]",
+                        "dark:data-[hover=true]:bg-[#06421D]",
+                        "data-[selectable=true]:focus:bg-[#06421D]",
                         "data-[pressed=true]:opacity-1",
                       ],
                     },
@@ -308,9 +308,9 @@ export default function AboutPage() {
                   className="!mt-0 mb-[66px] md:mb-[89px]"
                   classNames={{
                     label:
-                      "after:text-[#fff] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]",
+                      "after:text-[#000] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px] !text-[#000]",
                     trigger:
-                      "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#1C2025]",
+                      "border-[#E9E9E9] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#F1F7F4]",
                     mainWrapper: "relative",
                     helperWrapper: "absolute top-full w-full",
                     errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -327,10 +327,10 @@ export default function AboutPage() {
                       base: [
                         "rounded-sm",
                         "text-[16px]",
-                        "data-[hover=true]:text-[#009853]",
+                        "data-[hover=true]:text-[#06421D]",
                         "data-[hover=true]:bg-default-100",
-                        "dark:data-[hover=true]:bg-[#009853]",
-                        "data-[selectable=true]:focus:bg-[#009853]",
+                        "dark:data-[hover=true]:bg-[#06421D]",
+                        "data-[selectable=true]:focus:bg-[#06421D]",
                         "data-[pressed=true]:opacity-1",
                       ],
                     },
@@ -347,9 +347,9 @@ export default function AboutPage() {
                 className="!mt-0 mb-[66px] md:mb-[52px]"
                 classNames={{
                   label:
-                    "after:text-[#fff] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px]",
+                    "after:text-[#000] text-[12px]  md:text-[18px] !translate-y-[-52px] md:!translate-y-[-70px] !text-[#000]",
                   trigger:
-                    "border-[#4D4D4D] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#1C2025]",
+                    "border-[#E9E9E9] border-[1px] h-[42px] md:h-[60px] rounded-[8px] bg-[#F1F7F4]",
                   mainWrapper: "relative",
                   helperWrapper: "absolute top-full w-full",
                   errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
@@ -365,10 +365,10 @@ export default function AboutPage() {
                     base: [
                       "rounded-sm",
                       "text-[16px]",
-                      "data-[hover=true]:text-[#009853]",
+                      "data-[hover=true]:text-[#06421D]",
                       "data-[hover=true]:bg-default-100",
-                      "dark:data-[hover=true]:bg-[#009853]",
-                      "data-[selectable=true]:focus:bg-[#009853]",
+                      "dark:data-[hover=true]:bg-[#06421D]",
+                      "data-[selectable=true]:focus:bg-[#06421D]",
                       "data-[pressed=true]:opacity-1",
                     ],
                   },
@@ -381,7 +381,7 @@ export default function AboutPage() {
                 isRequired
                 classNames={{
                   label:
-                    "after:text-[#fff] text-[12px] md:text-[18px] pb-[25px]  md:pb-[30px] text-[#fff]",
+                    "after:text-[#000] text-[12px] md:text-[18px] pb-[25px]  md:pb-[30px] text-[#000]",
                   errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
                 }}
                 label="In which region(s) you are interested in using our service?"
@@ -397,7 +397,7 @@ export default function AboutPage() {
                   className="mr-[20px] md:mr-[70px]"
                   size="sm"
                 >
-                  <span className="text-[12px] md:text-[18px]">
+                  <span className="text-[12px] md:text-[18px] text-[#000]">
                     Latin Amercia
                   </span>
                 </Checkbox>
@@ -407,7 +407,7 @@ export default function AboutPage() {
                   className="mr-[20px] md:mr-[70px]"
                   size="sm"
                 >
-                  <span className="text-[12px] md:text-[18px]">
+                  <span className="text-[12px] md:text-[18px] text-[#000]">
                     Middle East
                   </span>
                 </Checkbox>
@@ -417,7 +417,10 @@ export default function AboutPage() {
                   className="mr-[20px] md:mr-[70px]"
                   size="sm"
                 >
-                  <span className="text-[12px] md:text-[18px]"> Asia</span>
+                  <span className="text-[12px] md:text-[18px] text-[#000]">
+                    {" "}
+                    Asia
+                  </span>
                 </Checkbox>
                 <Checkbox
                   value="Africa"
@@ -425,7 +428,9 @@ export default function AboutPage() {
                   className="mr-[20px] md:mr-[70px]"
                   size="sm"
                 >
-                  <span className="text-[12px] md:text-[18px]">Africa</span>
+                  <span className="text-[12px] md:text-[18px] text-[#000]">
+                    Africa
+                  </span>
                 </Checkbox>
                 <Checkbox
                   value="NorthAmerica"
@@ -433,13 +438,16 @@ export default function AboutPage() {
                   className="mr-[20px] md:mr-[70px]"
                   size="sm"
                 >
-                  <span className="text-[12px] md:text-[18px]">
+                  <span className="text-[12px] md:text-[18px] text-[#000]">
                     {" "}
                     North America
                   </span>
                 </Checkbox>
                 <Checkbox value="Europe" radius="sm" size="sm">
-                  <span className="text-[12px] md:text-[18px]"> Europe</span>
+                  <span className="text-[12px] md:text-[18px] text-[#000]">
+                    {" "}
+                    Europe
+                  </span>
                 </Checkbox>
               </CheckboxGroup>
 
@@ -447,13 +455,13 @@ export default function AboutPage() {
                 isRequired
                 classNames={{
                   label:
-                    "after:text-[#fff] text-[#fff]  text-[12px] md:text-[18px] pb-[13px] md:pb-[10px]",
+                    "after:text-[#000] text-[#fff]  text-[12px] md:text-[18px] pb-[13px] md:pb-[10px] !text-[#000]",
                   inputWrapper:
-                    "border-[#4D4D4D] border-[1px] h-[60px] rounded-[8px] bg-[#1C2025]",
+                    "border-[#E9E9E9] border-[1px] h-[60px] rounded-[8px] bg-[#F1F7F4]",
                   errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
                 }}
                 className="w-full mb-[18px] md:mb-[52px]"
-                label="How can Teemopay help your business? Feel free to ask anything."
+                label="How can LegendPay help your business? Feel free to ask anything."
                 labelPlacement="outside"
                 name="help"
                 errorMessage="Please Enter"
@@ -473,29 +481,29 @@ export default function AboutPage() {
                   }}
                   value={"true"}
                 >
-                  <div className="text-[12px] md:text-[18px]  leading-[16px]">
+                  <div className="text-[12px] md:text-[18px]  leading-[16px] text-[#000]">
                     By checking this box, you agree to receive marketing emails
-                    from Teemopay. You may unsubscribe at any time.{" "}
+                    from LegendPay. You may unsubscribe at any time.{" "}
                   </div>
                 </Checkbox>
               </CheckboxGroup>
-              <div className="text-[12px] leading-[14px] md:text-[18px] md:leading-[21px] text-white mb-[58px] md:mb-[94px]">
+              <div className="text-[12px] leading-[14px] md:text-[18px] md:leading-[21px]  mb-[58px] md:mb-[94px] text-[#000]">
                 By submitting your information you confirm that you have read
-                Teemopay
+                LegendPay
                 <Link
-                  href="/support/PRIVACIDAD-Teemopay.pdf"
+                  href="/support/PRIVACIDAD-LegendPay.pdf"
                   target="_blank"
-                  className="text-[#009853] px-[4px] underline  text-[12px] md:text-[18px]"
+                  className="px-[4px] underline  text-[12px] md:text-[18px] text-[#06421D]"
                 >
                   Privacy Policy
                 </Link>
-                and agree to the use of your data in all Teemopay
+                and agree to the use of your data in all LegendPay
                 communications.
               </div>
               <div className="w-full flex items-center justify-center">
                 <Button
                   type="submit"
-                  className="w-full md:w-[240px] md:h-[48px] md:text-[20px] bg-[#009853]"
+                  className="w-full md:w-[240px] md:h-[48px] md:text-[20px] bg-[#06421D]"
                   radius="full"
                 >
                   Submit

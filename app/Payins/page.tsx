@@ -28,20 +28,20 @@ export default function PayinsPage() {
               <FadeText>
                 <PrimaryTitle
                   align="text-left"
-                  className="md:max-w-[804px] mb-[20px] md:mb-[46px]"
+                  className="md:max-w-[804px] mb-[20px] md:mb-[46px] text-[#fff]"
                   title="Localized payment processing solutions"
                 ></PrimaryTitle>
               </FadeText>
               <FadeText>
                 <SubTitle
-                  className="mb-[38px]  md:mb-[46px] md:max-w-[500px]"
+                  className="mb-[38px]  md:mb-[46px] md:max-w-[500px] text-[#fff]"
                   align="text-left"
                   title="We offer localized payment solutions to support your business growth."
                 />
               </FadeText>
               <FadeText>
                 <Button
-                  className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#009853] text-[12px] md:text-[20px]"
+                  className="w-[131px] md:w-[240px] h-[30px] md:h-[48px]  text-white bg-[#06421D] text-[12px] md:text-[20px]"
                   radius="full"
                 >
                   Start now
@@ -65,8 +65,8 @@ export default function PayinsPage() {
             title="Country-specific solutions"
             sub={
               <>
-                By integrating Teemopay, you gain access to all major markets in
-                Latin America, Asia, the Middle East.{" "}
+                By integrating LegendPay, you gain access to all major markets
+                in Latin America, Asia, the Middle East.{" "}
                 <span className="hidden lg:inline">
                   {" "}
                   <br />{" "}
@@ -89,9 +89,9 @@ export default function PayinsPage() {
               <div className="flex-1 flex items-center  lg:items-baseline lg:flex-row  flex-col">
                 <FortyEightTitle
                   title="50"
-                  className="lg:pr-[10px] lg:text-left text-center"
+                  className="lg:pr-[10px] lg:text-left text-center text-[#000000]"
                 />
-                <div className="text-[12px] leading-[14px] md:text-[24px] md:leading-[36px] text-white text-center lg:text-left">
+                <div className="text-[12px] leading-[14px] md:text-[24px] md:leading-[36px] text-[#000000] text-center lg:text-left">
                   Payment Processors
                 </div>
               </div>
@@ -107,7 +107,7 @@ export default function PayinsPage() {
               src="/images/payins/5.png"
               width="100%"
             />
-            <div className="w-[149px] text-center md:text-left md:w-[659px] md:max-w-[659px] text-[12px] leading-[14px] md:text-[24px] md:leading-[36px] text-white ml-[4px] md:ml-[65px]">
+            <div className="text-[#000000] w-[149px] text-center md:text-left md:w-[659px] md:max-w-[659px] text-[12px] leading-[14px] md:text-[24px] md:leading-[36px]  ml-[4px] md:ml-[65px]">
               You will get the best price and the most stable channel
             </div>
           </div>
@@ -116,9 +116,9 @@ export default function PayinsPage() {
               <div className="flex-1 flex items-center  lg:items-baseline lg:flex-row  flex-col">
                 <FortyEightTitle
                   title="200"
-                  className="lg:pr-[10px] lg:text-left text-center"
+                  className="lg:pr-[10px] lg:text-left text-center text-[#000000]"
                 />
-                <div className="text-[12px] leading-[14px] md:text-[24px] md:leading-[36px] text-white text-center lg:text-left">
+                <div className="text-[#000000] text-[12px] leading-[14px] md:text-[24px] md:leading-[36px]  text-center lg:text-left">
                   Payment Methods
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default function PayinsPage() {
               src="/images/payins/5.png"
               width="100%"
             />
-            <div className="w-[149px] text-center md:text-left md:w-[659px] md:max-w-[659px] text-[12px] leading-[14px] md:text-[24px] md:leading-[36px] text-white ml-[4px] md:ml-[65px]">
+            <div className="w-[149px] text-center md:text-left md:w-[659px] md:max-w-[659px] text-[12px] leading-[14px] md:text-[24px] md:leading-[36px] text-[#000000] ml-[4px] md:ml-[65px]">
               Anyone can buy your product or service
             </div>
           </div>

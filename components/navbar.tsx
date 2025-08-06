@@ -10,10 +10,10 @@ export const Navbar = () => {
   const itemClasses = {
     base: "py-0 w-full",
     title: "font-normal text-medium",
-    trigger: "px-0 py-[8px]   flex items-center bg-[#000]",
-    indicator: "text-medium text-[#009853]",
+    trigger: "px-0 py-[8px]   flex items-center bg-[#fff]",
+    indicator: "text-medium text-[#06421D]",
     content: "text-sm",
-    titleWrapper: "bg-[#000]",
+    titleWrapper: "bg-[#fff] text-[#000000]",
   };
   useEffect(() => {
     const wrapper = wrapperRef.current;
@@ -43,20 +43,20 @@ export const Navbar = () => {
     children.forEach((c) => c.classList.remove("active"));
   };
   return (
-    <div className="w-full fixed navbar top-0 left-0  h-[68px] md:h-[88px] bg-[#000] z-[9999]">
+    <div className="w-full fixed navbar top-0 left-0  h-[68px] md:h-[88px] bg-[#06421D] z-[9999]">
       {/* web端 */}
       <div
         className="hidden lg:block relative   w-full   h-[88px] "
         ref={wrapperRef}
       >
         <div className="w-full relative h-[88px] flex justify-center">
-          <div className="w-full relative h-full flex items-center justify-between max-w-[1500px] bg-[#000]  md:mx-[60px] box-border">
-            <NextLink className="block max-w-[217px] cursor-pointer" href="/">
+          <div className="w-full relative h-full flex items-center justify-between max-w-[1500px] bg-[#06421D]  md:mx-[60px] box-border">
+            <NextLink className="block max-w-[275px] cursor-pointer" href="/">
               <Image
                 alt="HeroUI hero Image with delay"
-                height={40}
+                height={63}
                 src="/images/logo.png"
-                width={217}
+                width={275}
               />
             </NextLink>
 
@@ -70,14 +70,6 @@ export const Navbar = () => {
               </NextLink>
               <NextLink className="navbar-link" href="#">
                 Company
-              </NextLink>
-
-              <NextLink
-                className="navbar-link"
-                href="https://docs.teemopay.com/en"
-                target="_blank"
-              >
-                Developers
               </NextLink>
               <NextLink
                 className="navbar-link-btn"
@@ -133,12 +125,6 @@ export const Navbar = () => {
               >
                 Jobs
               </NextLink>
-              {/* <NextLink
-                className="navbar-child-item pr-[40px] md:pr-[60px] xl:pr-[153px]"
-                href="/Blog"
-              >
-                Blog
-              </NextLink> */}
               <NextLink
                 className="navbar-child-item pr-[40px] md:pr-[60px]  xl:pr-[153px]"
                 href="/About"
@@ -148,7 +134,7 @@ export const Navbar = () => {
               </NextLink>
               <NextLink
                 className="navbar-child-item pr-[40px] md:pr-[60px] xl:pr-[153px]"
-                href="/support/PRIVACIDAD-Teemopay.pdf"
+                href="/support/PRIVACIDAD-LegendPay.pdf"
                 target="_blank"
                 onClick={clearMenu}
               >
@@ -159,13 +145,13 @@ export const Navbar = () => {
         </div>
       </div>
       {/* 移动端 */}
-      <div className="block lg:hidden h-full bg-[#000] flex items-center justify-between px-[20px] cursor-pointer">
+      <div className="block lg:hidden h-full bg-[#06421D] flex items-center justify-between px-[20px] cursor-pointer">
         <NextLink className="block max-w-[152px] cursor-pointer" href="/">
           <Image
             alt="HeroUI hero Image with delay"
-            height={28}
+            height={33}
             src="/images/logo.png"
-            width={152}
+            width={145}
           />
         </NextLink>
         <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
@@ -208,7 +194,7 @@ export const Navbar = () => {
           </svg>
         </div>
         <div
-          className={`mobile-navbar-menu  h-full fixed top-0 bg-[#000] left-0 w-full pt-[68px] z-[-1] ${
+          className={`mobile-navbar-menu  h-full fixed top-0 bg-[#fff] left-0 w-full pt-[68px] z-[-1] ${
             isOpen ? "mobile-menu-open" : "mobile-menu-hide"
           }`}
         >
@@ -222,7 +208,7 @@ export const Navbar = () => {
                 {i.child.map((s) => (
                   <NextLink
                     key={s.id}
-                    className="block text-sm leading-[16px] py-[8px]"
+                    className="block text-sm leading-[16px] py-[8px] text-[#000000]"
                     href={s.href}
                     onClick={() => setIsOpen(false)}
                   >
@@ -232,13 +218,6 @@ export const Navbar = () => {
               </AccordionItem>
             ))}
           </Accordion>
-          <NextLink
-            className="block text-sm leading-[16px] py-[8px] px-2 text-[#009853]"
-            href="https://docs.teemopay.com/en"
-            target="_blank"
-          >
-            Developers
-          </NextLink>
         </div>
       </div>
     </div>

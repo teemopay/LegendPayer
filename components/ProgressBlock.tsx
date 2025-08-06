@@ -49,10 +49,10 @@ export const CountrySelect = ({ country }: Props) => {
   return (
     <Dropdown className="custome-menu" onOpenChange={setOpen}>
       <DropdownTrigger>
-        <div className="flex items-center justify-center  rounded-full w-[183px] md:w-[227px] h-[40px] md:h-[48px]  bg-white text-[#009853] text-[16px] md:text-[20px] font-medium border-[#009853] border-[3px]">
+        <div className="flex items-center justify-center  rounded-full w-[183px] md:w-[227px] h-[40px] md:h-[48px]  bg-white text-[#06421D] text-[16px] md:text-[20px] font-medium border-[#06421D] border-[3px]">
           <span className="inline-block  text-center">{country}</span>
           <svg
-            className={` select-country  ${open ? "menu-open" : "menu-close"}`}
+            className={`  select-country  ${open ? "menu-open" : "menu-close"}`}
             width="27"
             height="27"
             viewBox="0 0 27 27"
@@ -63,7 +63,7 @@ export const CountrySelect = ({ country }: Props) => {
               <path
                 id="Vector"
                 d="M13.5001 17.3414C13.2924 17.3414 13.0847 17.2376 12.9809 17.1337L6.64625 11.0068C6.33471 10.6953 6.33471 10.1761 6.64625 9.86451C6.95779 9.55297 7.47702 9.55297 7.78856 9.86451L13.6039 15.4722L19.4193 9.86451C19.7309 9.55297 20.2501 9.55297 20.5616 9.86451C20.8732 10.1761 20.8732 10.6953 20.5616 11.0068L14.227 17.1337C13.9155 17.2376 13.7078 17.3414 13.5001 17.3414Z"
-                fill="#009853"
+                fill="#06421D"
               />
             </g>
           </svg>
