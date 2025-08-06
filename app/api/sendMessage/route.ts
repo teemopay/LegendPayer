@@ -106,7 +106,7 @@ export async function POST(request: Request) {
         content: {
           post: {
             zh_cn: {
-              title: "官网留言:",
+              title: "karo官网留言:",
               content: params,
             },
           },
@@ -124,7 +124,6 @@ export async function POST(request: Request) {
       );
     }
   } catch (error) {
-    console.error("Error sending message to Lark:", error);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }
