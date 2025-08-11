@@ -180,7 +180,7 @@ export const MobileNavbarList = [
       },
       {
         title: "Privacy Policy",
-        href: "/support/Legendpay_Privacy_Policy.pdf",
+        href: "/support/Privacy_Policy.pdf",
         id: 34,
         target: "_blank",
       },

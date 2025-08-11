@@ -491,7 +491,7 @@ export default function AboutPage() {
                 By submitting your information you confirm that you have read
                 PaisaPay
                 <Link
-                  href="/support/Legendpay_Privacy_Policy.pdf"
+                  href="/support/Privacy_Policy.pdf"
                   target="_blank"
                   className="px-[4px] underline  text-[12px] md:text-[18px] text-[#06421D]"
                 >

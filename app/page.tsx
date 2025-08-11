@@ -91,7 +91,7 @@ export default function Home() {
                 <SubTitle
                   className="md:max-w-[917px]"
                   align="text-left"
-                  title="Easily expand your business with LegendPay’s professional payment solutions in countries and regions around the world."
+                  title="Easily expand your business with PaisaPay’s professional payment solutions in countries and regions around the world."
                 />
               </FadeText>
             </div>
@@ -192,7 +192,7 @@ export default function Home() {
             <FadeIn>
               <NextLink
                 className="block"
-                href="https://merchant.LegendPay.com/#/login"
+                href="https://merchant.PaisaPay.com/#/login"
                 target="_blank"
               >
                 <div className="lg:flex flex-row bg-[#06421D] rounded-2xl lg:h-[411px]">

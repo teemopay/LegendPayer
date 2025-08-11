@@ -135,7 +135,7 @@ export const Navbar = () => {
               </NextLink>
               <NextLink
                 className="navbar-child-item pr-[40px] md:pr-[60px] xl:pr-[153px]"
-                href="/support/Legendpay_Privacy_Policy.pdf"
+                href="/support/Privacy_Policy.pdf"
                 target="_blank"
                 onClick={clearMenu}
               >
