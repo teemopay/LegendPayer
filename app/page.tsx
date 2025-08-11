@@ -162,7 +162,7 @@ export default function Home() {
                       <SecondaryTitle
                         align="text-left"
                         className="md:max-w-[500px]"
-                        title="LegendPay Payout"
+                        title="PaisaPay Payout"
                       />
                       <div className="flex justify-end">
                         <Image

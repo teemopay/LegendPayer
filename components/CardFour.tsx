@@ -24,7 +24,7 @@ const cardList = [
   {
     id: 3,
     title: "Local and international payments",
-    sub: "LegendPay payment solution is a simple, secure and fast method suitable for all business models.",
+    sub: "PaisaPay payment solution is a simple, secure and fast method suitable for all business models.",
     icon: PayinThree,
   },
   {

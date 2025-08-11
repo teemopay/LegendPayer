@@ -16,7 +16,7 @@ export const FooterBlock = () => {
               >
                 <Image
                   classNames={{
-                    img: "max-h-[33px] max-w-[145px]  md:max-h-[63px] md:max-w-[180px] lg:max-w-[275px]",
+                    img: "max-h-[33px] max-w-[127px]  md:max-h-[63px] md:max-w-[180px] lg:max-w-[242px]",
                   }}
                   alt="logo"
                   height="100%"
@@ -77,7 +77,7 @@ export const FooterBlock = () => {
         </div>
       </PageWrap>
       <div className="pt-[30px] md:pt-[47px] text-[12px] leading-[18px md:text-[14px] md:leading-[21px] text-white text-center">
-        Copyright ©️ 2024 LegendPay - All rights reserved.
+        Copyright ©️ 2024 PaisaPay - All rights reserved.
       </div>
     </div>
   );

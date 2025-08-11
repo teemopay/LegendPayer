@@ -15,7 +15,7 @@ import { FadeIn } from "@/components/Animateitem";
 
 const title = "Your Trusted Global Payment Solutions Provider";
 const sub =
-  "LegendPay has been a prominent player in the payment gateway industry . As a leading global payment processing service and solutions provider, we specialize in facilitating secure and efficient transactions for a diverse range of clients. From small family-owned businesses to large corporations and established conglomerates, we offer tailored payment solutions to meet their specific needs.";
+  "PaisaPay has been a prominent player in the payment gateway industry . As a leading global payment processing service and solutions provider, we specialize in facilitating secure and efficient transactions for a diverse range of clients. From small family-owned businesses to large corporations and established conglomerates, we offer tailored payment solutions to meet their specific needs.";
 const VolumeData = [
   { key: "USD(0-500K)", label: "USD 0-500K" },
   { key: "USD(501K-1M)", label: "USD 501K-1M" },
@@ -461,7 +461,7 @@ export default function AboutPage() {
                   errorMessage: "text-[#FF4C4C] text-[12px] md:text-[14px]",
                 }}
                 className="w-full mb-[18px] md:mb-[52px]"
-                label="How can LegendPay help your business? Feel free to ask anything."
+                label="How can PaisaPay help your business? Feel free to ask anything."
                 labelPlacement="outside"
                 name="help"
                 errorMessage="Please Enter"
@@ -483,13 +483,13 @@ export default function AboutPage() {
                 >
                   <div className="text-[12px] md:text-[18px]  leading-[16px] text-[#000]">
                     By checking this box, you agree to receive marketing emails
-                    from LegendPay. You may unsubscribe at any time.{" "}
+                    from PaisaPay. You may unsubscribe at any time.{" "}
                   </div>
                 </Checkbox>
               </CheckboxGroup>
               <div className="text-[12px] leading-[14px] md:text-[18px] md:leading-[21px]  mb-[58px] md:mb-[94px] text-[#000]">
                 By submitting your information you confirm that you have read
-                LegendPay
+                PaisaPay
                 <Link
                   href="/support/Legendpay_Privacy_Policy.pdf"
                   target="_blank"
@@ -497,7 +497,7 @@ export default function AboutPage() {
                 >
                   Privacy Policy
                 </Link>
-                and agree to the use of your data in all LegendPay
+                and agree to the use of your data in all PaisaPay
                 communications.
               </div>
               <div className="w-full flex items-center justify-center">
