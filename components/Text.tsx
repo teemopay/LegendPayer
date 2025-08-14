@@ -408,8 +408,8 @@ export const Applytext = ({ className }: Props) => {
     >
       <span className="font-medium text-[#06421D]">📩 How to Apply: </span>
       Please send your resume to [
-      <a className="text-[#06421D]" href="mailto:service@PaisaPay.com">
-        service@PaisaPay.com
+      <a className="text-[#06421D]" href="mailto:service@PaisaGateway.com">
+        service@PaisaGateway.com
       </a>
       ] with the subject line: "Application for Senior Global Business
       Development – [Your Name]".

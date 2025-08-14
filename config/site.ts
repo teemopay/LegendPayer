@@ -237,7 +237,7 @@ export const AppsList = [
   },
   {
     id: 5,
-    href: "mailto:service@PaisaPay.com",
+    href: "mailto:service@PaisaGateway.com",
     target: "_blank",
   },
 ];

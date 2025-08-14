@@ -53,11 +53,11 @@ export const Navbar = () => {
           <div className="w-full relative h-full flex items-center justify-between max-w-[1500px] bg-[#06421D]  md:mx-[60px] box-border">
             <NextLink className="block max-w-[275px] cursor-pointer" href="/">
               <Image
-                className="max-w-[242px]"
+                className="max-w-[339px]"
                 alt="HeroUI hero Image with delay"
                 height={63}
                 src="/images/logo.png"
-                width={242}
+                width={339}
               />
             </NextLink>
 
@@ -147,12 +147,15 @@ export const Navbar = () => {
       </div>
       {/* 移动端 */}
       <div className=" lg:hidden h-full bg-[#06421D] flex items-center justify-between px-[20px] cursor-pointer">
-        <NextLink className="block max-w-[127px] cursor-pointer" href="/">
+        <NextLink className="block cursor-pointer" href="/">
           <Image
+            classNames={{
+              img: "max-w-[177px] max-h-[33px] md:max-h-[63px]  md:max-w-[339px]",
+            }}
             alt="HeroUI hero Image with delay"
-            height={33}
+            height={63}
             src="/images/logo.png"
-            width={127}
+            width={339}
           />
         </NextLink>
         <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">

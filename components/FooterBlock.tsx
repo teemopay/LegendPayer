@@ -16,7 +16,7 @@ export const FooterBlock = () => {
               >
                 <Image
                   classNames={{
-                    img: "max-h-[33px] max-w-[127px]  md:max-h-[63px] md:max-w-[180px] lg:max-w-[242px]",
+                    img: "max-w-[177px]  md:max-w-[339px]",
                   }}
                   alt="logo"
                   height="100%"
@@ -24,12 +24,18 @@ export const FooterBlock = () => {
                   width="100%"
                 />
               </NextLink>
-              <div className="text-[14px] leading-[21px] text-white pt-[11px] max-w-[612px] mt-[24px] md:mt-[49px]">
-                Mexico: Paseo de la Reforma 1325, Lomas de Chapultepec, Miguel
-                Hidalgo, 11000 CDMX Singapore: 1 Raffles Place, Singapore 048616{" "}
-                <br />
-                Pakistan: Office No. 2 & 3, 2nd Floor, Eman Shopping Mall,
-                Mingora Road, Khwazakh ila, Swat, Pakistan.
+              <div className="text-[14px] leading-[21px] text-white pt-[11px] max-w-[612px] mt-[10px] md:mt-[22px]">
+                <div className="mb-2">
+                  Mexico: Paseo de la Reforma 1325, Lomas de Chapultepec, Miguel
+                  Hidalgo, 11000 CDMX
+                </div>
+                <div className="mb-2">
+                  Singapore: 1 Raffles Place, Singapore 048616
+                </div>
+                <div>
+                  Pakistan: Office No 6, London Plaza, G 9 Markaz, Islamabad,
+                  Pakistan
+                </div>
               </div>
             </div>
             <div className="grid  grid-cols-5 gap-x-[16px] md:gap-x-[20px]">
@@ -77,7 +83,7 @@ export const FooterBlock = () => {
         </div>
       </PageWrap>
       <div className="pt-[30px] md:pt-[47px] text-[12px] leading-[18px md:text-[14px] md:leading-[21px] text-white text-center">
-        Copyright ©️ 2024 PaisaPay - All rights reserved.
+        Copyright ©️ 2024 PaisaGateway - All rights reserved.
       </div>
     </div>
   );

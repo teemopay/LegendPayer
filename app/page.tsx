@@ -162,7 +162,7 @@ export default function Home() {
                       <SecondaryTitle
                         align="text-left"
                         className="md:max-w-[500px]"
-                        title="PaisaPay Payout"
+                        title="PaisaGateway Payout"
                       />
                       <div className="flex justify-end">
                         <Image
@@ -192,7 +192,7 @@ export default function Home() {
             <FadeIn>
               <NextLink
                 className="block"
-                href="https://merchant.PaisaPay.com/#/login"
+                href="https://merchant.PaisaGateway.com/#/login"
                 target="_blank"
               >
                 <div className="lg:flex flex-row bg-[#06421D] rounded-2xl lg:h-[411px]">

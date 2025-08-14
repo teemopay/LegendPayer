@@ -38,7 +38,7 @@ const StartList = [
   {
     id: 5,
     title: "5. Start converting",
-    sub: "Run your business locally or globally using the payment methods supported by PaisaPay.",
+    sub: "Run your business locally or globally using the payment methods supported by PaisaGateway.",
     icon: StepFive,
   },
 ];
