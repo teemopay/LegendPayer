@@ -32,9 +32,17 @@ export const FooterBlock = () => {
                 <div className="mb-2">
                   Singapore: 1 Raffles Place, Singapore 048616
                 </div>
-                <div>
+                <div className="mb-2">
                   Pakistan: Office No 6, London Plaza, G 9 Markaz, Islamabad,
                   Pakistan
+                </div>
+                <div className="mb-2">
+                  India ofhce address: Level 1-2.Crescent Building Lado
+                  Sarai,Mehrauli, New Delhi, Delhi 110030.India
+                </div>
+                <div>
+                  Bangladesh ofhce address: 75Mohakhali, Dhaka-1212, Bangladesh
+                  Nina
                 </div>
               </div>
             </div>
@@ -83,7 +91,7 @@ export const FooterBlock = () => {
         </div>
       </PageWrap>
       <div className="pt-[30px] md:pt-[47px] text-[12px] leading-[18px md:text-[14px] md:leading-[21px] text-white text-center">
-        Copyright ©️ 2024 PaisaGateway - All rights reserved.
+        Copyright ©️ 2024 LegendPayer - All rights reserved.
       </div>
     </div>
   );

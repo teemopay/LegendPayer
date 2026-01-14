@@ -139,6 +139,18 @@ export const CardCountryConfig = [
     code: "CH",
     icon: "ch",
   },
+  {
+    id: 6,
+    title: "India",
+    code: "IN",
+    icon: "India",
+  },
+  {
+    id: 7,
+    title: "Bangladesh",
+    code: "Ba",
+    icon: "ba",
+  },
 ];
 
 export const MobileNavbarList = [
@@ -237,7 +249,7 @@ export const AppsList = [
   },
   {
     id: 5,
-    href: "mailto:service@PaisaGateway.com",
+    href: "mailto:super@legendpayer.com",
     target: "_blank",
   },
 ];

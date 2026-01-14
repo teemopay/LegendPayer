@@ -55,9 +55,9 @@ export const Navbar = () => {
               <Image
                 className="max-w-[339px]"
                 alt="HeroUI hero Image with delay"
-                height={63}
+                height={62}
                 src="/images/logo.png"
-                width={339}
+                width={308}
               />
             </NextLink>
 

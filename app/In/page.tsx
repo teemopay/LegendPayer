@@ -31,7 +31,7 @@ export default function InPage() {
               <div className="md:max-w-[714px] mb-[15px] md:mb-[40px] ">
                 <PrimaryTitle
                   align="text-left"
-                  title="Shape the future of commerce with PaisaGateway."
+                  title="Shape the future of commerce with LegendPayer."
                   className=" lg:!text-6xl lg:!leading-[4.25rem] md:!text-[22px]  md:!leading-[30px]"
                 />
               </div>

@@ -65,8 +65,8 @@ export default function PayinsPage() {
             title="Country-specific solutions"
             sub={
               <>
-                By integrating PaisaGateway, you gain access to all major
-                markets in Latin America, Asia, the Middle East.{" "}
+                By integrating LegendPayer, you gain access to all major markets
+                in Latin America, Asia, the Middle East.{" "}
                 <span className="hidden lg:inline">
                   {" "}
                   <br />{" "}

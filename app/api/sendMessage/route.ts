@@ -88,7 +88,7 @@ export async function POST(request: Request) {
       [
         {
           tag: "text",
-          text: `How can PaisaGateway help your business? Feel free to ask anything: 【${help}】`,
+          text: `How can LegendPayer help your business? Feel free to ask anything: 【${help}】`,
         },
       ],
       [
@@ -106,7 +106,7 @@ export async function POST(request: Request) {
         content: {
           post: {
             zh_cn: {
-              title: "karo官网留言:",
+              title: "LegendPayer官网留言:",
               content: params,
             },
           },

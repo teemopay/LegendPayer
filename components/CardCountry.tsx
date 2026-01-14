@@ -42,7 +42,7 @@ export const CardCountry = () => {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        className="hide-scrollbar flex grid-cols-5 gap-x-[26px] overflow-x-auto   mb-[104px]  md:mb-[242px]"
+        className="hide-scrollbar flex grid-cols-5 gap-x-[18px] overflow-x-auto   mb-[104px]  md:mb-[242px]"
       >
         {CardCountryConfig.map((i) => (
           <Card
