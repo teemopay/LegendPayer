@@ -1,4 +1,4 @@
-# Karopay 官网
+# LegendPayer 官网
 
 ## 技术栈
 
