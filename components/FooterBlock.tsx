@@ -68,6 +68,10 @@ export const FooterBlock = () => {
               ))}
             </div>
             <div className="md:hidden absolute bottom-0 left-0 w-full h-[1px] bg-[#D4D4E619]"></div>
+            <div className="mt-4 text-[14px] leading-[21px] text-white">
+              Official email address: super@legendpayer.com <br />
+              Official telegram account: +66 9 6232 3372
+            </div>
           </div>
           <div className="md:pt-[10px] grid  grid-cols-2 md:grid-cols-3">
             {MobileNavbarList.map((i) => (
